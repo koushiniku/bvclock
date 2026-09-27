@@ -9426,7 +9426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K2"
 			(at 238.76 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10245,7 +10245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K2"
 			(at 245.11 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12529,7 +12529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K2"
 			(at 226.06 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14465,7 +14465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K2"
 			(at 232.41 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)

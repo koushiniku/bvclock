@@ -7616,7 +7616,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "~+10V"
+	(text "~+12V6"
 		(exclude_from_sim no)
 		(at 100.33 53.34 0)
 		(effects
@@ -7637,6 +7637,17 @@
 			(justify left bottom)
 		)
 		(uuid "345eed10-fa84-423b-95bb-ce234177363e")
+	)
+	(text "measured 10V6RMS"
+		(exclude_from_sim no)
+		(at 77.47 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39d55cb1-d830-4cef-8edb-c855783df9f6")
 	)
 	(text "hours\nadvance"
 		(exclude_from_sim no)
@@ -7660,7 +7671,7 @@
 		)
 		(uuid "5ed16d0a-f91b-4588-bcac-ab0af37e944b")
 	)
-	(text "+6V3"
+	(text "+4V5"
 		(exclude_from_sim no)
 		(at 135.89 53.34 0)
 		(effects

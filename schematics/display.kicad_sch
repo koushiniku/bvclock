@@ -2964,6 +2964,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VEE"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VEE"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VEE\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VEE_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VEE_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 129.54 190.5)
@@ -2994,6 +3121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18c1c9d9-8571-45df-bca7-7a0abf9a2054")
+	)
+	(junction
+		(at 19.05 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c0c201a-b3b3-4bd6-9577-a357b8cb9340")
 	)
 	(junction
 		(at 207.01 114.3)
@@ -3030,6 +3163,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24773bfb-691c-45bd-9a7f-f80463dc9f0c")
+	)
+	(junction
+		(at 252.73 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "289d4e24-3feb-4937-906c-dd948f098907")
 	)
 	(junction
 		(at 231.14 146.05)
@@ -3146,12 +3285,6 @@
 		(uuid "4ebcfc41-795e-4a75-8554-827aa7627aa7")
 	)
 	(junction
-		(at 252.73 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5412b5ec-f51c-4313-a1c2-2562af77d5af")
-	)
-	(junction
 		(at 113.03 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3240,12 +3373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85ad9ef4-cce4-4183-bc26-c19ca1e56872")
-	)
-	(junction
-		(at 31.75 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "883104cb-caf5-4bdf-bae3-b75d2606452b")
 	)
 	(junction
 		(at 214.63 118.11)
@@ -4502,6 +4629,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 62.23) (xy 255.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a646afe-5061-45f0-b6de-f103f42c31cb")
+	)
+	(wire
+		(pts
 			(xy 19.05 53.34) (xy 41.91 53.34)
 		)
 		(stroke
@@ -4639,6 +4776,16 @@
 			(type default)
 		)
 		(uuid "308c2867-6872-41fa-8c06-08be2e0c1053")
+	)
+	(wire
+		(pts
+			(xy 19.05 86.36) (xy 19.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b07f3b-1c2c-4c9b-a2c0-9fc42172637d")
 	)
 	(wire
 		(pts
@@ -5659,16 +5806,6 @@
 			(type default)
 		)
 		(uuid "7c8d2ea2-b2c1-458e-a245-8053d2298668")
-	)
-	(wire
-		(pts
-			(xy 31.75 157.48) (xy 31.75 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d70c2a4-6061-4e80-a853-7818fb91e91f")
 	)
 	(wire
 		(pts
@@ -6882,7 +7019,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 157.48) (xy 31.75 157.48)
+			(xy 20.32 100.33) (xy 19.05 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7179,16 +7316,6 @@
 			(type default)
 		)
 		(uuid "eb1ecac5-5c55-4bf8-93d9-1e4029ec2679")
-	)
-	(wire
-		(pts
-			(xy 252.73 62.23) (xy 255.27 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebc15ea-d70f-477b-b23d-9292f8f9c8c7")
 	)
 	(wire
 		(pts
@@ -7914,7 +8041,7 @@
 	)
 	(global_label "~{HHSEL}"
 		(shape output)
-		(at 33.02 157.48 0)
+		(at 20.32 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7924,7 +8051,7 @@
 		)
 		(uuid "5ffe09c3-38db-46f9-ac2f-a137040c3bf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0528 157.48 0)
+			(at 29.3528 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8339,6 +8466,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 252.73 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "027242e1-6e9a-45ba-81ef-4598f9d01be5")
+		(property "Reference" "#PWR069"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 252.73 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "361b215c-145e-4092-bec7-699ef44c5ebd")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 203.2 106.68 270)
 		(unit 1)
@@ -8700,83 +8904,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0714965f-3a17-4b01-9082-4852b847f4ff")
-		(property "Reference" "#PWR038"
-			(at 252.73 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7cecfd0-5e08-4bfe-ba56-fd1e4ec779d6")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9159,6 +9286,83 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 147.32 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13e331f4-ded5-49dc-8c8c-49d20521187d")
+		(property "Reference" "#PWR063"
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 147.32 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71590739-2ed5-4a0f-a3ef-0cae297d47f8")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9937,6 +10141,83 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 134.62 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27fafb2a-e9fb-4d88-ba0a-099caf301755")
+		(property "Reference" "#PWR060"
+			(at 134.62 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 134.62 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ec90bff-5fa9-41ee-a3fa-578ca5576c34")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11436,6 +11717,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 185.42 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "638105e0-79ea-4104-8ca9-b0682178ac7f")
+		(property "Reference" "#PWR066"
+			(at 185.42 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 185.42 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 185.42 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "269a290f-2094-4b94-a3e6-0e088e18bcb5")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 160.02 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64a99370-b0e5-474f-b351-0e74a4a1d259")
+		(property "Reference" "#PWR064"
+			(at 160.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 160.02 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 160.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6f31565-e436-46f5-a098-65b7f1e890b5")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 95.25 0)
 		(unit 1)
@@ -12256,83 +12691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "808f25ca-6e38-460d-8552-6f832b404cab")
-		(property "Reference" "#PWR032"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e44f536c-0430-4a35-969b-ae05e074af9c")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 92.71 86.36 270)
 		(unit 1)
@@ -12773,83 +13131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 210.82 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89fc0e98-2bc5-4540-8125-9208fa572e9f")
-		(property "Reference" "#PWR047"
-			(at 210.82 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeb78443-41d9-4ff7-a9cc-ea9714e67d6a")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS251")
 		(at 147.32 62.23 270)
 		(unit 1)
@@ -13048,6 +13329,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 198.12 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99389ab7-e99f-4199-bda7-c13210e59f3a")
+		(property "Reference" "#PWR067"
+			(at 198.12 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 198.12 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 198.12 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be47aa90-6d9f-4b1c-a1d2-ae034ecfb129")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_PNP_EBC")
 		(at 110.49 92.71 270)
 		(unit 1)
@@ -13227,83 +13585,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b8584d3-6dc1-45bb-a344-4caa3089ab53")
-		(property "Reference" "#PWR071"
-			(at 237.49 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77542804-d84a-465b-bb14-80d52f03d370")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -13649,83 +13930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a162a967-bd4d-4ced-b92e-4a74d73e3ad1")
-		(property "Reference" "#PWR031"
-			(at 147.32 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23203a42-eeb3-4182-a381-f8ede3b79926")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Display_Character:KCSA02-105")
 		(at 54.61 138.43 270)
 		(unit 1)
@@ -13830,8 +14034,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 198.12 109.22 0)
+		(lib_id "power:VEE")
+		(at 172.72 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13839,9 +14043,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a5f9215e-c74b-4e9f-b978-8087613d6732")
-		(property "Reference" "#PWR039"
-			(at 198.12 115.57 0)
+		(uuid "a5433150-c4b0-4758-b5e6-58052a686617")
+		(property "Reference" "#PWR065"
+			(at 172.72 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,8 +14055,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 198.12 113.03 0)
+		(property "Value" "VEE"
+			(at 172.72 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13862,7 +14066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 109.22 0)
+			(at 172.72 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13873,7 +14077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 109.22 0)
+			(at 172.72 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13883,8 +14087,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 172.72 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13895,12 +14099,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "24b97d7d-16b4-4fc2-bd79-f48126096c2d")
+			(uuid "b81ea706-89f1-4f51-8605-85d44560d79c")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR039")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -14259,83 +14463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 237.49 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aabc2620-961f-45be-81bf-32635cc6f870")
-		(property "Reference" "#PWR072"
-			(at 237.49 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32a7efac-55b5-4f6d-a09e-0769a20aedc1")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 86.36 270)
 		(unit 1)
@@ -14567,6 +14694,83 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 210.82 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5b11dc7-a37c-44ef-9587-f78a9bb1a8f1")
+		(property "Reference" "#PWR068"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 210.82 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74ab69c8-ccb4-4635-a59b-3c5fe2a5945d")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -15259,6 +15463,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 237.49 22.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c52eb33b-4f4f-4745-8538-bcd058543227")
+		(property "Reference" "#PWR062"
+			(at 237.49 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 237.49 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 237.49 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f5078d2-5bc1-4026-afc8-1aea274e4ca7")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 152.4 106.68 270)
 		(unit 1)
@@ -15362,83 +15643,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd5e8c19-bfb9-4cb1-90ba-2dc893e745ef")
-		(property "Reference" "#PWR029"
-			(at 134.62 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e9bbc52-7288-4fee-92cf-8b3f57adaa1f")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16282,6 +16486,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 237.49 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edc8e920-9894-4a1e-8327-6250b1e021d2")
+		(property "Reference" "#PWR061"
+			(at 237.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 237.49 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 237.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8248ef2e-381b-4803-add7-ea93feef5b92")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 35.56 95.25 0)
 		(unit 1)
@@ -16699,160 +16980,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4cc792d-16fa-4ddd-a059-af1a279f6213")
-		(property "Reference" "#PWR033"
-			(at 172.72 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94dc7dfb-a5e2-4538-b8f4-e401a944afc4")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9729585-ac1a-4fa7-8205-6a75cea0d826")
-		(property "Reference" "#PWR034"
-			(at 185.42 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16f3333b-fd88-4cce-af8d-9eea3adb745e")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)

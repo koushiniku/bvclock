@@ -5950,9 +5950,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0V to +2V"
+	(text "0V to +2V\nLED dimmer"
 		(exclude_from_sim no)
-		(at 191.77 86.36 0)
+		(at 191.77 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6004,7 +6004,7 @@
 		)
 		(uuid "5ed16d0a-f91b-4588-bcac-ab0af37e944b")
 	)
-	(text "12/24"
+	(text "12/24\nselect"
 		(exclude_from_sim no)
 		(at 85.09 123.19 0)
 		(effects

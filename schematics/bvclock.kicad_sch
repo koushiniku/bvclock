@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(lib_symbols)
 	(sheet
-		(at 127 101.6)
+		(at 25.4 50.8)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "1e5cbbe7-ce51-4eb7-9339-265272a6e33a")
 		(property "Sheetname" "counters"
-			(at 127 100.8884 0)
+			(at 25.4 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "counters.kicad_sch"
-			(at 127 114.8846 0)
+			(at 25.4 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 127 127)
-		(size 25.4 12.7)
+		(at 25.4 76.2)
+		(size 25.4 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -66,9 +66,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "7790e522-fd12-4d00-a53d-bfb78be60a7a")
-		(property "Sheetname" "display"
-			(at 127 126.2884 0)
+		(uuid "289b4a08-3aa5-4097-b614-bd37949d95c7")
+		(property "Sheetname" "hours"
+			(at 25.4 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78,8 +78,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "display.kicad_sch"
-			(at 127 140.2846 0)
+		(property "Sheetfile" "hours.kicad_sch"
+			(at 25.4 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,53 @@
 		)
 	)
 	(sheet
-		(at 127 76.2)
+		(at 25.4 101.6)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7790e522-fd12-4d00-a53d-bfb78be60a7a")
+		(property "Sheetname" "display"
+			(at 25.4 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 25.4 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +160,7 @@
 		)
 		(uuid "f5e86072-9c14-4298-882e-305fc24f4757")
 		(property "Sheetname" "power"
-			(at 127 75.4884 0)
+			(at 25.4 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 127 89.4846 0)
+			(at 25.4 38.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

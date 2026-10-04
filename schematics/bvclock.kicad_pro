@@ -431,7 +431,7 @@
         "uuid": "c60296a7-2d90-476d-9ba8-593ef9b0941e"
       }
     ],
-    "used_designators": "SW1-6,R1-84,#PWR1-73,J1,C1-34,D1-29,Q1-22,U1-37,L1,RV1-3",
+    "used_designators": "SW1-6,R1-84,#PWR1-84,J1,C1-34,D1-76,Q1-22,U1-37,L1,RV1-3",
     "variants": []
   },
   "sheets": [
@@ -446,6 +446,10 @@
     [
       "1e5cbbe7-ce51-4eb7-9339-265272a6e33a",
       "counters"
+    ],
+    [
+      "289b4a08-3aa5-4097-b614-bd37949d95c7",
+      "hours"
     ],
     [
       "7790e522-fd12-4d00-a53d-bfb78be60a7a",

@@ -11265,7 +11265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 145.7452 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -11325,7 +11325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eb9e7a2-9233-4edb-b926-bc459f533fed")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 118.11 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,7 +11345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11429,7 +11429,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U7")
+					(reference "U9")
 					(unit 2)
 				)
 			)
@@ -11466,7 +11466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 66.04 29.718 90)
 			(hide yes)
 			(show_name no)
@@ -11649,7 +11649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 253.238 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +11731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 55.88 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11832,7 +11832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "363d7932-818d-4918-8a4d-95e4844f47d1")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 166.37 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11852,7 +11852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 166.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11936,7 +11936,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U8")
+					(reference "U7")
 					(unit 2)
 				)
 			)
@@ -11954,7 +11954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38d851a9-9dc3-473a-9711-197c87f7dc35")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 106.68 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12014,7 +12014,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12053,7 +12053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 153.3652 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12134,7 +12134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 130.5052 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12193,7 +12193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "461f00b3-52dd-43c1-92eb-a9a26a0023ab")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 50.8 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -12253,7 +12253,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12291,7 +12291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 207.01 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -12373,7 +12373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 106.68 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12475,7 +12475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4aab88aa-e929-4904-b5d3-7bb1c637a859")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR029"
 			(at 251.46 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12535,7 +12535,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR032")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12574,7 +12574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.188 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -12634,7 +12634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fff8fd8-8b24-4eb2-a398-142abd8498aa")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 119.38 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12718,7 +12718,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -12837,7 +12837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5811eb65-9076-4e14-8a37-db8f5f6c57a8")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 135.89 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12857,7 +12857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12941,7 +12941,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12980,7 +12980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 122.8852 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -13137,7 +13137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13259,7 +13259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 191.77 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13381,7 +13381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 83.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13482,7 +13482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69938352-8377-4845-9157-e464e9bff3dc")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 55.88 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13542,7 +13542,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13560,7 +13560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a936c07-8e4e-4ddb-93d7-60abe6581900")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 227.33 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13580,7 +13580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 227.33 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13664,7 +13664,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U9")
+					(reference "U8")
 					(unit 2)
 				)
 			)
@@ -13703,7 +13703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 115.2652 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -13783,7 +13783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13956,7 +13956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "772dd712-5441-4bd3-9891-b2ac3b93f74e")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 69.85 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13978,7 +13978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 68.58 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14062,7 +14062,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U8")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -14101,7 +14101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 50.8 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14306,7 +14306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80bcbb67-49ac-4969-bdcf-3c627a7d2825")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 218.44 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14392,7 +14392,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D21")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -14536,7 +14536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 68.8848 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14595,7 +14595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83750936-281b-4777-89a0-026f9b0d7196")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14655,7 +14655,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14672,7 +14672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc2cf05-abc2-466f-ab83-46502ed951cb")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14732,7 +14732,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14770,7 +14770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 171.45 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14865,7 +14865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98a107f0-8f0e-4eec-8eea-59290eb8674b")
-		(property "Reference" "D20"
+		(property "Reference" "D19"
 			(at 213.36 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14951,7 +14951,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D20")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -14990,7 +14990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 138.1252 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -15151,7 +15151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c1932a-a11a-4fc2-8ec8-8746079fc841")
-		(property "Reference" "D12"
+		(property "Reference" "D14"
 			(at 128.27 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15237,7 +15237,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -15275,7 +15275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 165.608 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -15355,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15457,7 +15457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a63a14ab-51fc-479f-9c3d-2f067d7e8797")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 58.42 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15477,7 +15477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 57.658 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -15519,7 +15519,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -15614,7 +15614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adb58e0a-3fa5-4e78-a5e9-cd050a1d6526")
-		(property "Reference" "D13"
+		(property "Reference" "D15"
 			(at 133.35 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15700,7 +15700,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D13")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -15738,7 +15738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 177.8 122.682 90)
 			(hide yes)
 			(show_name no)
@@ -16000,7 +16000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c05e0e7f-5d92-4566-bfc2-b5d2ad94c8f8")
-		(property "Reference" "D19"
+		(property "Reference" "D21"
 			(at 226.06 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16084,7 +16084,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D19")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -16123,7 +16123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 107.6452 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -16203,7 +16203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 33.02 36.322 90)
 			(hide yes)
 			(show_name no)
@@ -16263,7 +16263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd12c807-4f08-4eef-a6a7-083c8f3f3acd")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 87.63 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16283,7 +16283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 87.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16367,7 +16367,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -16408,7 +16408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 116.84 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16580,7 +16580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf6fcec6-9a78-43b8-bf05-7126e7da5e8e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 50.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16640,7 +16640,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16658,7 +16658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1bd08e4-43b2-44f2-9c89-394e795fa73f")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 95.25 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16680,7 +16680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16764,7 +16764,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U7")
+					(reference "U9")
 					(unit 3)
 				)
 			)
@@ -16781,7 +16781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d358ecd7-96d4-4c12-be77-23273f632d67")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 119.38 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16865,7 +16865,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -16905,7 +16905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 43.18 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -17001,7 +17001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e35e779d-7adc-4ffd-8c69-4b98aa4b96d6")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 35.56 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,7 +17022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 38.608 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -17064,7 +17064,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -17180,7 +17180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 37.7952 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -17240,7 +17240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e94456ab-60bb-4cac-bb30-b7190082f17a")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 196.85 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17260,7 +17260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 196.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17344,7 +17344,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -17383,7 +17383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 127.508 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -17466,7 +17466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 134.62 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17583,7 +17583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 100.0252 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17721,7 +17721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fae78f7f-4db3-4323-bacc-2ec4b7d96f1e")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 82.55 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17743,7 +17743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 81.28 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +17827,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "U9")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -17844,7 +17844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbd90f0d-e10d-4edd-9abd-4d090ed47f99")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 105.41 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17904,7 +17904,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,129 @@
+(footprint "SW_Push"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "button")
+	(property "Reference" "REF**"
+		(at 0 -4.064 0)
+		(layer "F.SilkS")
+		(uuid "93c07cc5-6691-4013-9e31-5a58a776e893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 6.096 0)
+		(layer "F.Fab")
+		(uuid "40ad7791-bfac-4f37-a2b4-53f00f7d65a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd8c61f-8ee1-4782-b471-9e4b82d7ce85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1fdb0ed-f19a-4ad9-9232-fef3a5b2ac61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.1 -3.2)
+		(end 3.1 3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5e5c91d3-0371-4954-b613-4ec06fae7c77")
+	)
+	(fp_rect
+		(start -3.5 -3.4)
+		(end 3.5 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c1f81631-a0cd-4e98-89d8-dd59619350ca")
+	)
+	(fp_rect
+		(start -3 -3.1)
+		(end 3 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d1ab1286-0bfe-42eb-ae2b-9163173ef8a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.318 0)
+		(layer "F.Fab")
+		(uuid "ba3fd73e-f653-4756-b42a-0f68c8c90ab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a27c037-ca31-434d-ab71-e58996488fa8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a63c4613-7364-46d0-85c1-59e0d20ae22d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

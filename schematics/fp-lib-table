@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "bvclock") (type "KiCad") (uri "${KIPRJMOD}/bvclock.pretty") (options "") (descr ""))
+)

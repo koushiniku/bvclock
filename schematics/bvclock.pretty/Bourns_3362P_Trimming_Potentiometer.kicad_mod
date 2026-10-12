@@ -1,0 +1,131 @@
+(footprint "Bourns_3362P_Trimming_Potentiometer"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "trim potentiometer Bourns THT")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f01d1a1-72ae-4570-a5a6-781307e8a266")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.127)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Bourns_3362P_Trimming_Potentiometer"
+		(at 0 6.1722 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0752a868-27ad-4c7a-bc54-22379e0b4683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3362.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa79e302-83bb-4249-813c-2ab4e14f4df3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0035ad6-ff6a-48dc-a35d-19b50ce5baa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.4036 -3.429)
+		(end 3.4036 3.6322)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5e5c05ad-32a7-4202-ac86-a425aa81380b")
+	)
+	(fp_rect
+		(start -3.5052 -3.5306)
+		(end 3.5052 3.7338)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1dce3c94-6ee2-46b7-b0dd-43d8d7a4f660")
+	)
+	(fp_rect
+		(start -3.302 -3.3274)
+		(end 3.302 3.5306)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7326012d-f21a-44a6-b041-e01bf1659ade")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.572 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb99e722-56ba-443d-b5b1-1a8e2b112b1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 1.8288 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "812dd4bf-1c59-44c3-9c67-f4341cd7e200")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.5)
+		(size 1.8288 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "008320d3-ac9d-402a-ba88-274a1414527d")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.8288 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb258c7b-f8e0-400b-817c-e0a166c4b36d")
+	)
+	(embedded_fonts no)
+)

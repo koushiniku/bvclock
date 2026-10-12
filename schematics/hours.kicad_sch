@@ -3770,6 +3770,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Network08_Split"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Network08_Split"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP9"
+				(at -2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_5_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R5.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_6_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R6.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_7_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R7.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network08_Split_8_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R8.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -5300,22 +5578,10 @@
 		(uuid "03d8212a-7503-457f-9e03-436e51d4f5f1")
 	)
 	(junction
-		(at 87.63 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05561d8c-137d-4752-a098-8ae3713738b8")
-	)
-	(junction
 		(at 87.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05b91527-e1aa-4803-aced-8a6a73bdcffa")
-	)
-	(junction
-		(at 105.41 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06ef205a-bc70-4667-9645-b7313443c755")
 	)
 	(junction
 		(at 105.41 127)
@@ -5352,12 +5618,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11da91be-56c4-45ca-8e99-e428361c7f79")
-	)
-	(junction
-		(at 151.13 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "160041ab-97d8-498e-9266-a3a51d5a0f5c")
 	)
 	(junction
 		(at 87.63 110.49)
@@ -5408,6 +5668,12 @@
 		(uuid "3116a1ae-f18c-4a80-b90d-ec9299195dc3")
 	)
 	(junction
+		(at 87.63 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "332598ab-f356-4a4d-8522-347bc9024a7a")
+	)
+	(junction
 		(at 149.86 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5426,12 +5692,6 @@
 		(uuid "38096cc2-e10c-4740-990b-6f0386fb7aa9")
 	)
 	(junction
-		(at 158.75 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "399ac154-b3d6-4e31-b1f0-9121904e555a")
-	)
-	(junction
 		(at 52.07 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5448,12 +5708,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48d26fd9-d47c-4113-afda-177bb8e45e01")
-	)
-	(junction
-		(at 158.75 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53dd239d-1c6d-43aa-a326-c32d5dd8b6c1")
 	)
 	(junction
 		(at 96.52 80.01)
@@ -5564,28 +5818,34 @@
 		(uuid "8d27a25e-b0c5-4b84-acde-34db8ad760d9")
 	)
 	(junction
+		(at 158.75 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98c4a955-e482-499a-be42-662af320960f")
+	)
+	(junction
 		(at 123.19 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b784cb9-cd1b-4549-9690-202df3bc6aae")
 	)
 	(junction
-		(at 96.52 38.1)
+		(at 158.75 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3953290-3969-42b0-be26-e69c8cc10632")
-	)
-	(junction
-		(at 114.3 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a53f6240-c15e-48c5-a8cc-961211fdd6ef")
+		(uuid "ad23a271-f61e-4294-a8a3-3a3e3858b45e")
 	)
 	(junction
 		(at 96.52 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adeb74f3-4d45-40bf-a0c5-24b8b6876088")
+	)
+	(junction
+		(at 151.13 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04201ad-e49e-4dc6-bea3-e98c0f64c516")
 	)
 	(junction
 		(at 52.07 212.09)
@@ -5630,6 +5890,12 @@
 		(uuid "d66811af-bdf6-4336-80ae-bbdf8dde8dc9")
 	)
 	(junction
+		(at 105.41 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d95fe582-1b83-4366-b30a-03dd32b43ce1")
+	)
+	(junction
 		(at 66.04 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5648,6 +5914,12 @@
 		(uuid "ddabe10b-762b-4351-8292-1c9d457ff200")
 	)
 	(junction
+		(at 114.3 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de022165-ec18-4e98-9f13-4ef0734602a4")
+	)
+	(junction
 		(at 80.01 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5660,16 +5932,22 @@
 		(uuid "e2fc5b8d-2995-4278-81d9-a7470651961f")
 	)
 	(junction
-		(at 158.75 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e78c6995-542e-43d4-94c3-480477b0dc10")
-	)
-	(junction
 		(at 87.63 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eccd7aa8-6240-41f4-8f3f-cabb36cd885f")
+	)
+	(junction
+		(at 96.52 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed68e592-9abb-40de-ae97-6fe6d31fcc0b")
+	)
+	(junction
+		(at 158.75 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c071dd-4b4e-457f-9e34-dd871f45decc")
 	)
 	(junction
 		(at 114.3 119.38)
@@ -6116,6 +6394,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e79ad51-dd06-421f-b1dd-5a07826e1d98")
+	)
+	(wire
+		(pts
 			(xy 78.74 130.81) (xy 78.74 127)
 		)
 		(stroke
@@ -6336,6 +6624,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 38.1) (xy 96.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389535b1-a994-4bf3-9439-da7223701b99")
+	)
+	(wire
+		(pts
 			(xy 166.37 190.5) (xy 171.45 190.5)
 		)
 		(stroke
@@ -6513,16 +6811,6 @@
 			(type default)
 		)
 		(uuid "524b9a52-7754-4fda-9886-057616b24b53")
-	)
-	(wire
-		(pts
-			(xy 114.3 38.1) (xy 123.19 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533504d8-ae0e-4074-b782-e396fd3b0993")
 	)
 	(wire
 		(pts
@@ -7276,6 +7564,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 38.1) (xy 123.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62c8893-f035-49d9-b3d2-5524a1b67ddd")
+	)
+	(wire
+		(pts
 			(xy 149.86 163.83) (xy 158.75 163.83)
 		)
 		(stroke
@@ -7283,6 +7581,16 @@
 			(type default)
 		)
 		(uuid "c6b23169-c270-4af3-b13c-bc14fc752177")
+	)
+	(wire
+		(pts
+			(xy 96.52 38.1) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d31e50-b2d1-47f8-adbd-5db4735bb061")
 	)
 	(wire
 		(pts
@@ -7353,16 +7661,6 @@
 			(type default)
 		)
 		(uuid "d1e39670-f844-4a27-8898-b8873c0f543e")
-	)
-	(wire
-		(pts
-			(xy 87.63 38.1) (xy 114.3 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d34c19de-bbf4-4fc8-9f43-769e24dbb6ce")
 	)
 	(wire
 		(pts
@@ -8035,7 +8333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02014d63-08ee-446a-899e-986d72060f6f")
-		(property "Reference" "R23"
+		(property "Reference" "R14"
 			(at 40.64 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 37.592 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -8098,7 +8396,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R23")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8409,6 +8707,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network08_Split")
+		(at 105.41 41.91 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13b38f34-b0f8-4ce0-b14c-b91c661756f3")
+		(property "Reference" "RN2"
+			(at 106.68 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 105.41 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(at 103.378 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 resistor network, star topology, bussed resistors, split"
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf4")
+		)
+		(pin "2"
+			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2430")
+		)
+		(pin "3"
+			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245711")
+		)
+		(pin "4"
+			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8a7")
+		)
+		(pin "1"
+			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7b")
+		)
+		(pin "8"
+			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6274")
+		)
+		(pin "7"
+			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c0")
+		)
+		(pin "6"
+			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af461")
+		)
+		(pin "5"
+			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc0")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "74HC139_1")
 		(lib_id "bvclock:74HC139")
 		(at 62.23 104.14 0)
@@ -8654,86 +9053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20c05e78-3ccc-432b-943b-7cfe82724d52")
-		(property "Reference" "R25"
-			(at 97.79 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 96.52 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 94.742 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "396feb98-d5c1-4150-bcbe-eb7e0ba0ee99")
-		)
-		(pin "2"
-			(uuid "fcb7f8d2-9cad-46f7-bbc1-5185da70e97f")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 110.49 119.38 0)
 		(unit 1)
@@ -8845,7 +9164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23a84650-5e89-468a-9808-fb15ac2207f5")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 82.55 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8909,7 +9228,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8926,7 +9245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26e19d2f-91e8-4b5b-941f-50f7f950694f")
-		(property "Reference" "R22"
+		(property "Reference" "R13"
 			(at 40.64 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8947,7 +9266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 37.592 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -8989,87 +9308,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3087177a-be9e-4b38-9cda-5281436e9899")
-		(property "Reference" "R27"
-			(at 115.57 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 114.3 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 112.522 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a584d282-af82-4b97-ae24-b3ed68b5405f")
-		)
-		(pin "2"
-			(uuid "36be44e9-8e07-4473-b911-609adc4b52bd")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R27")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9389,7 +9628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ccb0c21-ea33-467a-9947-bc47446f3fba")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 39.37 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9449,7 +9688,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9466,7 +9705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d113954-18c5-49a3-a0f3-8032acb24fd2")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 90.17 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9530,7 +9769,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9951,7 +10190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f35e584-5eb3-45dc-94ff-0325e55cab50")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10011,7 +10250,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10028,7 +10267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "575d0985-62e5-40e0-8ebe-375165b7811c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 158.75 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10088,7 +10327,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10511,7 +10750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6808b0dd-5643-4f8f-8e5d-58443faa03fb")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 67.31 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,7 +10814,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10794,7 +11033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "707edab7-c54b-4d0e-a38e-c26dd5d4610b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 39.37 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +11093,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10972,7 +11211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7975c688-1731-4c29-9a50-5d9d04f228c8")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 74.93 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11036,7 +11275,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11148,7 +11387,7 @@
 		(lib_name "74HC04_2")
 		(lib_id "74xx:74HC04")
 		(at 113.03 163.83 0)
-		(unit 4)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11255,87 +11494,7 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U11")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86c4fa2b-45c1-437d-8cbc-84f0da148b75")
-		(property "Reference" "R24"
-			(at 88.9 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 87.63 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 85.852 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6947309-e9ff-431d-994f-0d2caa53eaba")
-		)
-		(pin "2"
-			(uuid "462ef4c8-7ed2-4b83-91a2-3c186f98330b")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R24")
-					(unit 1)
+					(unit 5)
 				)
 			)
 		)
@@ -11351,7 +11510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883de1b5-2ea6-41a2-9d57-7b4cbecdee97")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11411,7 +11570,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11519,10 +11678,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network08_Split")
+		(at 123.19 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f66e3a1-769c-4fbb-8e51-df290ce8528d")
+		(property "Reference" "RN2"
+			(at 124.46 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 123.19 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(at 121.158 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 123.19 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 resistor network, star topology, bussed resistors, split"
+			(at 123.19 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf5")
+		)
+		(pin "2"
+			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2431")
+		)
+		(pin "3"
+			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245712")
+		)
+		(pin "4"
+			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8a8")
+		)
+		(pin "1"
+			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7c")
+		)
+		(pin "8"
+			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6275")
+		)
+		(pin "7"
+			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c1")
+		)
+		(pin "6"
+			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af462")
+		)
+		(pin "5"
+			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc1")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "74HC04_4")
 		(lib_id "74xx:74HC04")
 		(at 16.51 204.47 90)
-		(unit 5)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11531,7 +11791,7 @@
 		(dnp no)
 		(uuid "8fdd4374-a8fa-418f-91ff-1ee9bde4380a")
 		(property "Reference" "U11"
-			(at 20.32 205.74 90)
+			(at 20.32 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11542,7 +11802,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 20.32 203.2 90)
+			(at 20.32 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11631,7 +11891,7 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U11")
-					(unit 5)
+					(unit 2)
 				)
 			)
 		)
@@ -12093,7 +12353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9953d81b-354e-4213-97d9-cfc24deffa2f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 158.75 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12153,7 +12413,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12372,7 +12632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a60cc99c-78dc-4d79-a314-dad0cd508173")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 60.96 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12432,7 +12692,87 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR032")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7864e32-ac11-495e-86aa-ff5be115b3a9")
+		(property "Reference" "R15"
+			(at 88.9 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 87.63 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 85.852 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5996dd42-50eb-4969-a83f-1ba344685f1f")
+		)
+		(pin "2"
+			(uuid "2d0e30f9-bf68-435b-8456-5cc7de49204c")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12442,7 +12782,7 @@
 		(lib_name "74HC04_5")
 		(lib_id "74xx:74HC04")
 		(at 46.99 149.86 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12549,7 +12889,7 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U11")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -12650,86 +12990,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5f203d2-cb14-4a74-a5dc-0c4d23dcbb2e")
-		(property "Reference" "R28"
-			(at 124.46 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 123.19 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 121.412 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7375be1d-86ba-4ecc-9bfb-1065bd712e01")
-		)
-		(pin "2"
-			(uuid "4827d4ee-3a9d-4548-822b-468db40606fc")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12840,7 +13100,7 @@
 		(lib_name "74HC04_3")
 		(lib_id "74xx:74HC04")
 		(at 130.81 144.78 0)
-		(unit 2)
+		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12947,24 +13207,24 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U11")
-					(unit 2)
+					(unit 6)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 41.91 0)
-		(unit 1)
+		(lib_id "Device:R_Network08_Split")
+		(at 96.52 41.91 0)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bee83f82-038c-4c08-8e90-519dac755e8d")
-		(property "Reference" "R26"
-			(at 106.68 41.91 0)
+		(uuid "bf8cd473-1e5d-4dc7-afd4-fdcca8e93b57")
+		(property "Reference" "RN2"
+			(at 97.79 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12975,7 +13235,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 105.41 41.91 90)
+			(at 96.52 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12984,8 +13244,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 103.632 41.91 90)
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(at 94.488 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12995,8 +13255,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 105.41 41.91 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13006,8 +13266,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 105.41 41.91 0)
+		(property "Description" "8 resistor network, star topology, bussed resistors, split"
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13017,17 +13277,38 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "0f4d20a8-e59f-4b6a-9b7c-53074d1a1e3b")
+		(pin "9"
+			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf6")
 		)
 		(pin "2"
-			(uuid "dece8945-2aa3-4664-bdd2-41bb9fed7512")
+			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2432")
+		)
+		(pin "3"
+			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245713")
+		)
+		(pin "4"
+			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8a9")
+		)
+		(pin "1"
+			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7d")
+		)
+		(pin "8"
+			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6276")
+		)
+		(pin "7"
+			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c2")
+		)
+		(pin "6"
+			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af463")
+		)
+		(pin "5"
+			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc2")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R26")
-					(unit 1)
+					(reference "RN2")
+					(unit 4)
 				)
 			)
 		)
@@ -13160,7 +13441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c558306e-4bdf-4a51-b338-4bbf2fe062b7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 66.04 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -13220,7 +13501,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13230,7 +13511,7 @@
 		(lib_name "74HC04_5")
 		(lib_id "74xx:74HC04")
 		(at 39.37 90.17 0)
-		(unit 6)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13337,7 +13618,7 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U11")
-					(unit 6)
+					(unit 1)
 				)
 			)
 		)
@@ -13567,6 +13848,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network08_Split")
+		(at 114.3 41.91 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d45301fa-a052-4286-9d3b-17d98bf2d1f9")
+		(property "Reference" "RN2"
+			(at 115.57 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 114.3 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(at 112.268 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 resistor network, star topology, bussed resistors, split"
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf7")
+		)
+		(pin "2"
+			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2433")
+		)
+		(pin "3"
+			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245714")
+		)
+		(pin "4"
+			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8aa")
+		)
+		(pin "1"
+			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7e")
+		)
+		(pin "8"
+			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6277")
+		)
+		(pin "7"
+			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c3")
+		)
+		(pin "6"
+			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af464")
+		)
+		(pin "5"
+			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc3")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 96.52 208.28 0)
 		(unit 1)
@@ -13577,7 +13959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d47715e0-478f-4038-94cf-7a5927abd6e2")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 97.79 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13641,7 +14023,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13658,7 +14040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dceb3527-5974-4d5c-a697-aaf8f3da5e67")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 66.04 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13718,7 +14100,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13735,7 +14117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e49a8e4c-02b1-4996-8acb-0a34db248daf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 158.75 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13795,7 +14177,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14007,7 +14389,7 @@
 		(lib_name "74HC04_1")
 		(lib_id "74xx:74HC04")
 		(at 123.19 154.94 0)
-		(unit 3)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14114,7 +14496,7 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U11")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)

@@ -8333,7 +8333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02014d63-08ee-446a-899e-986d72060f6f")
-		(property "Reference" "R14"
+		(property "Reference" "R19"
 			(at 40.64 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8396,7 +8396,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R14")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8413,7 +8413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "020a3a44-07b0-4cad-9c8c-e908e7010278")
-		(property "Reference" "D43"
+		(property "Reference" "D42"
 			(at 110.49 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8497,7 +8497,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D43")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -8514,7 +8514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "037c66d7-d6e6-462d-9618-97a0958521ed")
-		(property "Reference" "D38"
+		(property "Reference" "D37"
 			(at 92.71 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +8598,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D38")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -8616,7 +8616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12229d89-cf20-4237-812a-7e5945d12b61")
-		(property "Reference" "D26"
+		(property "Reference" "D25"
 			(at 34.29 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8700,7 +8700,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2229f103-e0c1-4790-8a3c-ad5b8f596eb7")
-		(property "Reference" "D44"
+		(property "Reference" "D43"
 			(at 110.49 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +9147,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D44")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -9164,7 +9164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23a84650-5e89-468a-9808-fb15ac2207f5")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 82.55 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9228,7 +9228,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9245,7 +9245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26e19d2f-91e8-4b5b-941f-50f7f950694f")
-		(property "Reference" "R13"
+		(property "Reference" "R18"
 			(at 40.64 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9308,7 +9308,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R13")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9325,7 +9325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "313e5bcd-1c94-4606-9959-f6780143004e")
-		(property "Reference" "D42"
+		(property "Reference" "D41"
 			(at 110.49 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9409,7 +9409,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -9426,7 +9426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32afc05e-8eb2-4314-81e5-691019ca1a14")
-		(property "Reference" "D51"
+		(property "Reference" "D50"
 			(at 119.38 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9510,7 +9510,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D51")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -9527,7 +9527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3713145b-29d7-45e2-8b48-3b485e12d768")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 83.82 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9611,7 +9611,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ccb0c21-ea33-467a-9947-bc47446f3fba")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR040"
 			(at 39.37 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9688,7 +9688,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR033")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9705,7 +9705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d113954-18c5-49a3-a0f3-8032acb24fd2")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 90.17 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9769,7 +9769,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -9786,7 +9786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eb7352f-e728-4bfe-9f1a-c68a99d6b355")
-		(property "Reference" "D45"
+		(property "Reference" "D44"
 			(at 110.49 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9870,7 +9870,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D45")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -9887,7 +9887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45c725e7-ea67-4dbc-a91c-895e3123e5a0")
-		(property "Reference" "D48"
+		(property "Reference" "D47"
 			(at 119.38 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9971,7 +9971,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D48")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -9988,7 +9988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b80b5d4-4e8d-40ee-8e4a-f2e06d2d8a78")
-		(property "Reference" "D40"
+		(property "Reference" "D39"
 			(at 101.6 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,7 +10072,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D40")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -10089,7 +10089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d03b3f6-b8ec-4bc7-abed-92c45cbf2f1b")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 83.82 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,7 +10173,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f35e584-5eb3-45dc-94ff-0325e55cab50")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR046"
 			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10250,7 +10250,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR039")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10267,7 +10267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "575d0985-62e5-40e0-8ebe-375165b7811c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 158.75 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10327,7 +10327,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10344,7 +10344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bafdbe1-0196-4cb0-97b1-1a77c0f019ba")
-		(property "Reference" "D35"
+		(property "Reference" "D34"
 			(at 92.71 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10428,7 +10428,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D35")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -10446,7 +10446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5be825f5-50fc-4a6d-9861-1640d2840f53")
-		(property "Reference" "D25"
+		(property "Reference" "D24"
 			(at 34.29 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10530,7 +10530,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D25")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -10547,7 +10547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f264ae6-1c5b-49b9-a946-e8f6d3a4acf5")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 83.82 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10631,7 +10631,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -10649,7 +10649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f9f9937-4adc-4775-b25e-50ef913a4125")
-		(property "Reference" "D27"
+		(property "Reference" "D26"
 			(at 34.29 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +10733,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D27")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -10750,7 +10750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6808b0dd-5643-4f8f-8e5d-58443faa03fb")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 67.31 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +10814,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10831,7 +10831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6beadf59-c825-417b-a2b0-c96ff932e095")
-		(property "Reference" "D36"
+		(property "Reference" "D35"
 			(at 92.71 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10915,7 +10915,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D36")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10932,7 +10932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d65a529-470c-4eba-9dbb-54754cd0c279")
-		(property "Reference" "D39"
+		(property "Reference" "D38"
 			(at 92.71 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +11016,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D39")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -11033,7 +11033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "707edab7-c54b-4d0e-a38e-c26dd5d4610b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR039"
 			(at 39.37 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11093,7 +11093,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR032")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11110,7 +11110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "733f0b54-7109-437a-a5ec-3e6e94a49743")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 101.6 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11194,7 +11194,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -11211,7 +11211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7975c688-1731-4c29-9a50-5d9d04f228c8")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 74.93 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11275,7 +11275,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11293,7 +11293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81c6bb0b-31c3-4616-bfc9-62a4463c2127")
-		(property "Reference" "D24"
+		(property "Reference" "D23"
 			(at 34.29 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11377,7 +11377,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D24")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -11510,7 +11510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883de1b5-2ea6-41a2-9d57-7b4cbecdee97")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11570,7 +11570,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11587,7 +11587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc104c8-a044-4c31-b115-6650ed136ad1")
-		(property "Reference" "D49"
+		(property "Reference" "D48"
 			(at 119.38 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11671,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D49")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -11907,7 +11907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90470ca7-7a10-4831-90f4-bf5d513a1159")
-		(property "Reference" "D52"
+		(property "Reference" "D51"
 			(at 119.38 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11991,7 +11991,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D52")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "992bdfdf-1385-4970-be58-4bab20cb31da")
-		(property "Reference" "D34"
+		(property "Reference" "D33"
 			(at 83.82 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12336,7 +12336,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D34")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -12353,7 +12353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9953d81b-354e-4213-97d9-cfc24deffa2f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR047"
 			(at 158.75 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12413,7 +12413,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR040")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12430,7 +12430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bc09718-8b17-4ecc-a18a-b52e7541c3a0")
-		(property "Reference" "D46"
+		(property "Reference" "D45"
 			(at 119.38 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12514,7 +12514,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D46")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -12531,7 +12531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1cb7f72-418b-4aaf-a169-5bd194dd358e")
-		(property "Reference" "D33"
+		(property "Reference" "D32"
 			(at 83.82 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12615,7 +12615,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D33")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -12632,7 +12632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a60cc99c-78dc-4d79-a314-dad0cd508173")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR041"
 			(at 60.96 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12692,7 +12692,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR034")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12709,7 +12709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7864e32-ac11-495e-86aa-ff5be115b3a9")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 88.9 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12772,7 +12772,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12905,7 +12905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2b291f8-8dc7-4339-962a-d835631421b2")
-		(property "Reference" "D47"
+		(property "Reference" "D46"
 			(at 119.38 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12989,7 +12989,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D47")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -13006,7 +13006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b72fd66a-3ca0-4762-b227-7d4152b0fd00")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 83.82 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13090,7 +13090,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -13441,7 +13441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c558306e-4bdf-4a51-b338-4bbf2fe062b7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR043"
 			(at 66.04 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -13501,7 +13501,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13757,7 +13757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1d080d1-2572-4ab0-90bb-e096de157a39")
-		(property "Reference" "D37"
+		(property "Reference" "D36"
 			(at 92.71 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13841,7 +13841,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D37")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -13959,7 +13959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d47715e0-478f-4038-94cf-7a5927abd6e2")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 97.79 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14023,7 +14023,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -14040,7 +14040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dceb3527-5974-4d5c-a697-aaf8f3da5e67")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR044"
 			(at 66.04 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14100,7 +14100,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR037")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14117,7 +14117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e49a8e4c-02b1-4996-8acb-0a34db248daf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR048"
 			(at 158.75 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14177,7 +14177,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR041")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14194,7 +14194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e835ee16-2633-476c-99a1-d60672793290")
-		(property "Reference" "D50"
+		(property "Reference" "D49"
 			(at 119.38 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14278,7 +14278,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D50")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -14295,7 +14295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efaf96c4-71c5-41ee-8258-ae141a15e67d")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 83.82 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14379,7 +14379,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 				)
 			)

@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.3462 0)
 		(layer "F.SilkS")
-		(uuid "722d290f-cf64-4a7d-ba26-e1bdaeb27d4d")
+		(uuid "886faf1d-00e2-44f4-a49c-8b6bed030c48")
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -19,7 +19,7 @@
 	(property "Value" "SW_Slide_SPDT"
 		(at 0 4.826 0)
 		(layer "F.Fab")
-		(uuid "38483f96-afe3-4b96-959d-46c400b9d286")
+		(uuid "0e417b6b-4e5a-4a8d-94be-b9d4d61c26fb")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d83d5dc9-0ea3-4b8e-bf7a-4dacffa6f0f9")
+		(uuid "bb4e080b-b2b2-45ba-8cf2-f8ef0a68b8b4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "35b6f043-162c-4414-9248-2591adfbedb4")
+		(uuid "273dfc25-5019-422f-9688-04354507a50d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7735ac6b-d884-4850-8e16-9f057bef5884")
+		(uuid "1f9471b4-601d-4330-8e08-07cd3554bf59")
 	)
 	(fp_rect
 		(start -4.5466 -2.15)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1167d745-9c66-4314-a563-27f9d5cc335e")
+		(uuid "09a50785-2f27-4772-8551-cea2d9e62f30")
 	)
 	(fp_rect
 		(start -4.3 -1.9)
@@ -86,12 +86,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a86a02b7-c9dd-421c-b3b7-9e5f9ecca4cd")
+		(uuid "e8c5d498-5f12-4d6b-aaee-7c66eaf1cb9b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.048 0)
 		(layer "F.Fab")
-		(uuid "25fc4098-bac0-4044-8d98-3500641e251c")
+		(uuid "667f531d-89dd-493e-bad6-5968486b8525")
 		(effects
 			(font
 				(size 1 1)
@@ -101,28 +101,28 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at -2.54 0)
-		(size 1.8288 1.8288)
-		(drill 1.016)
+		(size 1.6002 1.6002)
+		(drill 0.8001)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1693333333)
-		(uuid "2500fdde-156a-4c8d-ae73-1900fb38da99")
+		(uuid "c5bd52ab-84a9-4bdd-a785-1dc227e79a4d")
 	)
 	(pad "2" thru_hole circle
 		(at 0 0)
-		(size 1.8288 1.8288)
-		(drill 1.016)
+		(size 1.6002 1.6002)
+		(drill 0.8001)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "de80a1a4-553e-489f-a388-4c2a1d85388a")
+		(uuid "e61dc40f-56ed-4029-adb8-8478338d8c21")
 	)
 	(pad "3" thru_hole circle
 		(at 2.54 0)
-		(size 1.8288 1.8288)
-		(drill 1.016)
+		(size 1.6002 1.6002)
+		(drill 0.8001)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cb00274c-b9a5-4d03-b966-c0555817176f")
+		(uuid "f589d4be-c961-4c8f-9853-bcbc029046e3")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.step"

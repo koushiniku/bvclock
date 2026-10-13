@@ -2315,8 +2315,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7000"
+		(symbol "Transistor_FET:Q_NMOS_SGD"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2335,7 +2336,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7000"
+			(property "Value" "Q_NMOS_SGD"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2346,21 +2347,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2368,10 +2356,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2382,7 +2369,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+			(property "Description" "N-MOSFET transistor, source/gate/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2393,7 +2380,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2404,7 +2391,7 @@
 					)
 				)
 			)
-			(symbol "2N7000_0_1"
+			(symbol "Q_NMOS_SGD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2548,7 +2535,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2571,7 +2558,7 @@
 					)
 				)
 			)
-			(symbol "2N7000_1_1"
+			(symbol "Q_NMOS_SGD_1_1"
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -2592,7 +2579,7 @@
 				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.08)
 					(name "G"
 						(effects
 							(font
@@ -3516,6 +3503,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "240mA"
+		(exclude_from_sim no)
+		(at 133.35 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2398657a-77b2-40d7-872d-3c8e1ba52263")
+	)
+	(text "26.25mA"
+		(exclude_from_sim no)
+		(at 36.83 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a09df1e-8d83-462c-92e8-e53031d04453")
+	)
+	(text "30mA\n>30R"
+		(exclude_from_sim no)
+		(at 135.89 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81ae8b54-bcfc-497f-a16b-844ef93206ec")
+	)
+	(text "3.75mA"
+		(exclude_from_sim no)
+		(at 36.83 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9eb53871-f2f7-40b9-8f83-2d404f2ae0d2")
+	)
+	(text "2.5mA"
+		(exclude_from_sim no)
+		(at 90.17 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc61fc94-1a1b-48ec-ba04-f50e97229c6b")
+	)
 	(junction
 		(at 43.18 247.65)
 		(diameter 0)
@@ -3595,7 +3632,7 @@
 		(uuid "2a6cf6fa-e660-4db6-b0a2-7d361d3c0902")
 	)
 	(junction
-		(at 140.97 194.31)
+		(at 130.81 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2afd97e6-a037-4a11-b210-0a7a843dc806")
@@ -3625,7 +3662,7 @@
 		(uuid "330adcaf-8ba5-4028-a18d-ee4ed6cff007")
 	)
 	(junction
-		(at 140.97 217.17)
+		(at 130.81 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a78e848-f35e-4f9b-9578-d1087e63e4f0")
@@ -3805,7 +3842,7 @@
 		(uuid "827b0ec1-5cbd-4a08-8acf-4e8f6920d99a")
 	)
 	(junction
-		(at 140.97 182.88)
+		(at 130.81 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84c96888-92c9-4a44-b409-a396287583e5")
@@ -3919,7 +3956,7 @@
 		(uuid "aefb2df9-8776-4605-8e04-c55294e22f9d")
 	)
 	(junction
-		(at 140.97 228.6)
+		(at 130.81 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0cfa570-70c3-4738-82d4-8f1bd54ea459")
@@ -4069,7 +4106,7 @@
 		(uuid "ee74ddd7-d7f5-4fcb-a3c0-99ae5578f9ed")
 	)
 	(junction
-		(at 140.97 205.74)
+		(at 130.81 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef05fe5c-b161-4a9f-a464-0c5744303a97")
@@ -4099,7 +4136,7 @@
 		(uuid "f70c70ac-310c-43c9-b8d3-f9045892f45c")
 	)
 	(junction
-		(at 140.97 171.45)
+		(at 130.81 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd61781e-9c3b-44a1-b67d-8916e96c0769")
@@ -4659,7 +4696,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 217.17) (xy 140.97 217.17)
+			(xy 128.27 217.17) (xy 130.81 217.17)
 		)
 		(stroke
 			(width 0)
@@ -4749,7 +4786,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 166.37) (xy 115.57 166.37)
+			(xy 120.65 166.37) (xy 115.57 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 189.23) (xy 114.3 189.23)
+			(xy 120.65 189.23) (xy 114.3 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5059,6 +5096,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 228.6) (xy 140.97 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230fc25d-688f-42c9-bab0-83b79323ab33")
+	)
+	(wire
+		(pts
 			(xy 149.86 214.63) (xy 158.75 214.63)
 		)
 		(stroke
@@ -5119,6 +5166,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 228.6) (xy 132.08 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2519a3f7-2ae6-4dba-a7d9-b65f818c441b")
+	)
+	(wire
+		(pts
 			(xy 146.05 115.57) (xy 158.75 115.57)
 		)
 		(stroke
@@ -5139,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 158.75) (xy 140.97 171.45)
+			(xy 130.81 158.75) (xy 130.81 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5209,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 212.09) (xy 115.57 212.09)
+			(xy 120.65 212.09) (xy 115.57 212.09)
 		)
 		(stroke
 			(width 0)
@@ -5389,7 +5446,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 228.6) (xy 140.97 228.6)
+			(xy 128.27 228.6) (xy 130.81 228.6)
 		)
 		(stroke
 			(width 0)
@@ -5429,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 194.31) (xy 140.97 194.31)
+			(xy 128.27 194.31) (xy 130.81 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5619,6 +5676,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 148.59) (xy 149.86 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b561f70-5a2b-4528-a731-362ec125dc0e")
+	)
+	(wire
+		(pts
 			(xy 110.49 57.15) (xy 113.03 57.15)
 		)
 		(stroke
@@ -5629,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 171.45) (xy 140.97 182.88)
+			(xy 130.81 171.45) (xy 130.81 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5776,6 +5843,16 @@
 			(type default)
 		)
 		(uuid "54c7d455-a8f0-4ba7-be1a-b7f3f4d8eb8d")
+	)
+	(wire
+		(pts
+			(xy 132.08 148.59) (xy 128.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5641a773-3167-40ed-a324-398405a7e3f9")
 	)
 	(wire
 		(pts
@@ -5979,6 +6056,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 161.29) (xy 148.59 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2b4751-bf93-4db4-8293-a35ad466529c")
+	)
+	(wire
+		(pts
 			(xy 31.75 77.47) (xy 71.12 77.47)
 		)
 		(stroke
@@ -5989,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 172.72) (xy 147.32 172.72)
+			(xy 128.27 172.72) (xy 132.08 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6049,7 +6136,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 153.67) (xy 114.3 153.67)
+			(xy 120.65 153.67) (xy 114.3 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +6376,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 195.58) (xy 144.78 195.58)
+			(xy 128.27 195.58) (xy 132.08 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6329,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 182.88) (xy 140.97 182.88)
+			(xy 128.27 182.88) (xy 130.81 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6479,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 161.29) (xy 148.59 161.29)
+			(xy 128.27 161.29) (xy 132.08 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6489,7 +6576,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 177.8) (xy 116.84 177.8)
+			(xy 120.65 177.8) (xy 116.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6559,16 +6646,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 148.59) (xy 149.86 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9036ef1d-828f-4726-8ae5-85bdc6e5bba3")
-	)
-	(wire
-		(pts
 			(xy 58.42 175.26) (xy 78.74 175.26)
 		)
 		(stroke
@@ -6619,7 +6696,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 158.75) (xy 140.97 158.75)
+			(xy 128.27 158.75) (xy 130.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6636,6 +6713,16 @@
 			(type default)
 		)
 		(uuid "952ebdd3-06c2-4959-8bfc-cf539ed26b60")
+	)
+	(wire
+		(pts
+			(xy 139.7 172.72) (xy 147.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bb3283-36f5-462c-bae8-e5f8895b5a1b")
 	)
 	(wire
 		(pts
@@ -6849,6 +6936,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 218.44) (xy 142.24 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8946ae6-c3af-48a2-8f6c-0f28682b52ce")
+	)
+	(wire
+		(pts
 			(xy 149.86 27.94) (xy 149.86 148.59)
 		)
 		(stroke
@@ -6919,7 +7016,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 218.44) (xy 142.24 218.44)
+			(xy 128.27 218.44) (xy 132.08 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7006,6 +7103,16 @@
 			(type default)
 		)
 		(uuid "b3971611-074b-4408-82af-80c46f4e27ea")
+	)
+	(wire
+		(pts
+			(xy 139.7 184.15) (xy 146.05 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c281d8-3305-4107-bb1a-fa835add6dd8")
 	)
 	(wire
 		(pts
@@ -7129,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 223.52) (xy 114.3 223.52)
+			(xy 120.65 223.52) (xy 114.3 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7209,7 +7316,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 171.45) (xy 140.97 171.45)
+			(xy 128.27 171.45) (xy 130.81 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7229,7 +7336,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 217.17) (xy 140.97 228.6)
+			(xy 130.81 217.17) (xy 130.81 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7399,13 +7506,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 200.66) (xy 116.84 200.66)
+			(xy 120.65 200.66) (xy 116.84 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d3a11d38-c58d-4ab7-a63d-43911517956f")
+	)
+	(wire
+		(pts
+			(xy 139.7 195.58) (xy 144.78 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4336655-51b7-4794-9b2e-adb00a44d3c8")
 	)
 	(wire
 		(pts
@@ -7449,7 +7566,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 207.01) (xy 143.51 207.01)
+			(xy 128.27 207.01) (xy 132.08 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7699,6 +7816,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 207.01) (xy 143.51 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9110331-ced5-4174-adf9-0d64b00fcfcc")
+	)
+	(wire
+		(pts
 			(xy 77.47 203.2) (xy 77.47 208.28)
 		)
 		(stroke
@@ -7719,7 +7846,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 205.74) (xy 140.97 205.74)
+			(xy 128.27 205.74) (xy 130.81 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7779,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 182.88) (xy 140.97 194.31)
+			(xy 130.81 182.88) (xy 130.81 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7839,7 +7966,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 194.31) (xy 140.97 205.74)
+			(xy 130.81 194.31) (xy 130.81 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7859,7 +7986,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 184.15) (xy 146.05 184.15)
+			(xy 128.27 184.15) (xy 132.08 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7869,7 +7996,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 205.74) (xy 140.97 217.17)
+			(xy 130.81 205.74) (xy 130.81 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8692,7 +8819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02235106-481f-478b-9c97-9799bf42cb1b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 58.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8752,7 +8879,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8769,7 +8896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "027242e1-6e9a-45ba-81ef-4598f9d01be5")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR057"
 			(at 77.47 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -8829,94 +8956,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "033fba88-8d20-4b62-b86e-75f3395685f0")
-		(property "Reference" "Q16"
-			(at 134.62 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 134.62 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 213.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2562f75e-2723-42ac-9678-7010c8cf2632")
-		)
-		(pin "3"
-			(uuid "b8f36be4-9854-4599-9e5e-ad695c93447b")
-		)
-		(pin "2"
-			(uuid "43c16f97-eea4-4b29-bba4-6ab6d8d58aba")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q16")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9039,7 +9079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "049d1a18-664f-40d2-b3e3-74be3679c543")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR059"
 			(at 78.74 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9099,7 +9139,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR052")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9116,7 +9156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06edb964-ea64-40bd-90a2-4061ef54ffca")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR064"
 			(at 95.25 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -9176,7 +9216,87 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR057")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 195.58 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07d70d21-f063-41b3-9b90-cb0c1934afb3")
+		(property "Reference" "R35"
+			(at 135.89 193.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47R"
+			(at 135.89 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 193.802 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7569070-036c-47d6-8f1f-4132cab0f7e4")
+		)
+		(pin "2"
+			(uuid "fde4dfce-7839-41c4-bf50-680c5546c1e6")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -9194,8 +9314,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "090715e3-5ac2-4508-aa23-8a0fa86f2484")
-		(property "Reference" "Q10"
-			(at 124.46 105.41 0)
+		(property "Reference" "Q11"
+			(at 123.19 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9206,7 +9326,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 107.95 0)
+			(at 123.19 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9283,7 +9403,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q10")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -9300,7 +9420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8d9f6f-de4a-4413-98ca-5c8d99d4d007")
-		(property "Reference" "D55"
+		(property "Reference" "D54"
 			(at 81.28 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9375,7 +9495,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "D55")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aa8f04a-ae4c-4bb2-857f-faab7e5b528e")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR055"
 			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9572,91 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR048")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 29.21 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c17e1ce-df61-47f4-8cd5-85c244f9b637")
+		(property "Reference" "Q3"
+			(at 27.94 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TN2106"
+			(at 27.94 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 34.29 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 29.21 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e464c7be-410e-4191-b530-b8bb415a5ba1")
+		)
+		(pin "1"
+			(uuid "85908582-ee95-480b-80f4-62a427f0b9d5")
+		)
+		(pin "2"
+			(uuid "7eb51be3-98a9-4cc8-88b8-2e6020acdda8")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9565,6 +9769,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 135.89 228.6 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e11179a-1a41-4e0a-becc-ef0207e72838")
+		(property "Reference" "R38"
+			(at 135.89 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47R"
+			(at 135.89 228.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 226.822 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e923f1b9-9192-433a-b331-4ca25b79bc86")
+		)
+		(pin "2"
+			(uuid "616a56e1-36d1-48b2-80e7-aa5aea96c37b")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13bc3e36-0840-4747-b65a-de068e2c706b")
+		(property "Reference" "Q18"
+			(at 124.46 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TN2106"
+			(at 124.46 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 130.81 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e7a88ada-874b-40c9-8bf1-64b0fcb405af")
+		)
+		(pin "1"
+			(uuid "07c42067-18a2-45be-837f-50d9ae33173b")
+		)
+		(pin "2"
+			(uuid "3ecc1bfa-74b6-4d3b-9b0d-7cb44ab2aaf6")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 255.27 0)
 		(mirror y)
@@ -9576,7 +9944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18def2e4-2fdb-44fa-a7de-bb07e1545c70")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR052"
 			(at 50.8 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -9636,7 +10004,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR045")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9653,7 +10021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ab2781c-31b0-44f9-ad5c-7c57bd5d92ec")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR070"
 			(at 152.4 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9713,15 +10081,15 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR063")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 153.67 0)
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9729,9 +10097,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1edab776-89d8-4efc-9493-f90ecbb86773")
-		(property "Reference" "Q11"
-			(at 134.62 154.94 0)
+		(uuid "1eb89de5-47fa-4adc-ae63-1917b4a8e95d")
+		(property "Reference" "Q14"
+			(at 124.46 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9741,8 +10109,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7000"
-			(at 134.62 157.48 0)
+		(property "Value" "TN2106"
+			(at 124.46 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9753,32 +10121,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 155.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 153.67 0)
+			(at 130.81 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9788,19 +10131,41 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c7ea19d4-61b1-46a8-84b1-6ac34cd65cfe")
+		(property "Datasheet" ""
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "81901fd3-2301-412e-9b00-fd8312a52b58")
+			(uuid "51bc2e56-74b5-4766-bc9d-0c2b0329a34b")
+		)
+		(pin "1"
+			(uuid "bc0147a9-60bc-4dcf-b92f-6a64bd23e54b")
 		)
 		(pin "2"
-			(uuid "5cf603f9-8e12-4038-93d3-112bdbbec837")
+			(uuid "bb321dfd-df82-4338-8ef4-6e33705e15f2")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q11")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -9818,8 +10183,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2632d2c7-a242-422c-99f6-356dfa17b892")
-		(property "Reference" "Q5"
-			(at 124.46 48.26 0)
+		(property "Reference" "Q6"
+			(at 123.19 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9830,7 +10195,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 50.8 0)
+			(at 123.19 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9907,7 +10272,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -9924,7 +10289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "268b7c4f-cb0f-42f3-aefa-d6934fcee939")
-		(property "Reference" "D53"
+		(property "Reference" "D52"
 			(at 68.58 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9999,7 +10364,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "D53")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -10016,7 +10381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26a7b446-61a1-4c53-af04-8c00b49c13b6")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR065"
 			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10076,7 +10441,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR058")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10093,7 +10458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bd8e16f-d113-4796-b073-23e657cd1e16")
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 52.07 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10157,7 +10522,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10175,8 +10540,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e7939b4-b145-4a33-8ba4-9a6349ca3e6f")
-		(property "Reference" "Q3"
-			(at 124.46 25.4 0)
+		(property "Reference" "Q4"
+			(at 123.19 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10187,7 +10552,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 27.94 0)
+			(at 123.19 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10264,7 +10629,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10281,7 +10646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "314f9a97-fb4f-4db1-b4ac-529b5c0beccf")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR051"
 			(at 50.8 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10341,7 +10706,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR044")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10358,7 +10723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37fa2266-a6b6-4430-97dc-0213f9ee6227")
-		(property "Reference" "R26"
+		(property "Reference" "R21"
 			(at 36.83 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10368,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Value" "390R"
+		(property "Value" "330R"
 			(at 36.83 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +10785,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R26")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10437,7 +10802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b06041a-fc19-4a0a-9913-a492017e3c31")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR056"
 			(at 76.2 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10497,7 +10862,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR049")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10514,7 +10879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bc6fb2f-02fa-4df8-8105-fac3f55ab7ae")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 29.21 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +10943,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10595,7 +10960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cc88c08-a91d-4256-8aca-19713dff0641")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10655,7 +11020,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10672,7 +11037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3de084c8-857e-4c5b-8709-39a7370351e5")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 116.84 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10682,7 +11047,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,7 +11099,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10751,7 +11116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fc714c1-03e2-40bb-bb4e-1f24398a2e9c")
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 59.69 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +11180,87 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "C28")
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 218.44 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "434ffcc3-427d-43a0-9deb-2fa74d195cab")
+		(property "Reference" "R37"
+			(at 135.89 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47R"
+			(at 135.89 218.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 216.662 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "667b0846-70e9-45cf-ab5a-852fc7109d11")
+		)
+		(pin "2"
+			(uuid "be54e723-5490-4dbc-8612-fd3dcd480320")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -10832,7 +11277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43a4a174-3b2a-4297-9037-f7be3616f148")
-		(property "Reference" "R20"
+		(property "Reference" "R25"
 			(at 116.84 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10842,7 +11287,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10894,7 +11339,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11018,8 +11463,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c95264f-f5da-488a-b960-e7ac08335746")
-		(property "Reference" "Q8"
-			(at 124.46 82.55 0)
+		(property "Reference" "Q9"
+			(at 123.19 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11030,7 +11475,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 85.09 0)
+			(at 123.19 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11107,7 +11552,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q8")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -11124,7 +11569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51e545cc-d8bc-469c-8839-60c51b6a2475")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR063"
 			(at 88.9 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11184,7 +11629,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -11202,8 +11647,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54cac2aa-b905-4a39-9622-8e53bcfd4697")
-		(property "Reference" "Q9"
-			(at 124.46 93.98 0)
+		(property "Reference" "Q10"
+			(at 123.19 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11214,7 +11659,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 96.52 0)
+			(at 123.19 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11291,94 +11736,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57a59e3a-ac3c-4f1e-94df-33903a9f7c28")
-		(property "Reference" "Q14"
-			(at 134.62 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 134.62 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 191.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5132f8f-f1b4-41b1-9962-5427df33af91")
-		)
-		(pin "3"
-			(uuid "56147bbb-573b-414e-acda-1f2585773c37")
-		)
-		(pin "2"
-			(uuid "a9446002-6f77-4f8d-83ee-e6ef9e059b10")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q14")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -11395,7 +11753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a9bcb19-a912-461c-9bb7-61c05d19c2fe")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 116.84 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11405,7 +11763,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11457,7 +11815,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11474,7 +11832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6112cc88-47b6-4020-b42d-b1dee428d67f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR054"
 			(at 73.66 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11534,7 +11892,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR047")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11551,7 +11909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6652e814-5a5a-40f0-b022-cd5d514ae85e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR066"
 			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11611,7 +11969,91 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR059")
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69d10475-a7d9-4670-92cf-29409ee94ea0")
+		(property "Reference" "Q15"
+			(at 124.46 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TN2106"
+			(at 124.46 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 130.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7ac5e0d1-af76-4814-b618-d3242439c46c")
+		)
+		(pin "1"
+			(uuid "802ed9f7-09eb-451b-92a1-d5d2e852dd29")
+		)
+		(pin "2"
+			(uuid "0211b110-5ca0-4160-9d19-58b9d973e94d")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -11628,7 +12070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "726636a4-5425-4947-8b8c-4e980e073b80")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 36.83 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11692,7 +12134,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11710,8 +12152,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "747f678c-49a6-424e-8d3c-6344da8d9f30")
-		(property "Reference" "Q6"
-			(at 124.46 59.69 0)
+		(property "Reference" "Q7"
+			(at 123.19 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11722,7 +12164,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 62.23 0)
+			(at 123.19 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11799,7 +12241,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q6")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -11816,7 +12258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "762d3856-0159-493c-95f8-c86b059e4946")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 116.84 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11878,7 +12320,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R18")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -11895,7 +12337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "793434e9-8f3e-484f-9f94-92175a36b346")
-		(property "Reference" "R33"
+		(property "Reference" "R39"
 			(at 154.94 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11905,7 +12347,7 @@
 				)
 			)
 		)
-		(property "Value" "390R"
+		(property "Value" "47R"
 			(at 154.94 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11957,7 +12399,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R33")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11974,7 +12416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8479634b-4c0b-4b34-86d5-23dad918ec81")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 67.31 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12038,7 +12480,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -12055,7 +12497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8703c4e5-b31b-4dbc-b469-19f090d4fb2d")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 116.84 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12065,7 +12507,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12117,15 +12559,15 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R25")
+					(reference "R30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 166.37 0)
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12133,9 +12575,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8d557853-f160-4592-982b-61160b9db7a2")
-		(property "Reference" "Q12"
-			(at 134.62 167.64 0)
+		(uuid "901202c8-8e43-4938-9530-d3f5188690bd")
+		(property "Reference" "Q16"
+			(at 124.46 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12145,8 +12587,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7000"
-			(at 134.62 170.18 0)
+		(property "Value" "TN2106"
+			(at 124.46 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12157,32 +12599,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 168.275 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 166.37 0)
+			(at 130.81 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12192,19 +12609,41 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "44f52a55-65b4-41b8-9f23-ed5dae05551d")
+		(property "Datasheet" ""
+			(at 125.73 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "4ad4923c-dfa7-43a4-a5e9-e9a455e72411")
+			(uuid "89128b89-3dce-4b05-b6bf-bdfe59832182")
+		)
+		(pin "1"
+			(uuid "f11371a5-50e1-48eb-947c-f9f5bc8511e7")
 		)
 		(pin "2"
-			(uuid "ecd75c15-4584-4f0e-9385-1c7d157bc4a4")
+			(uuid "376b362c-3d8c-4ce8-a0f3-76bef7799fa3")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q12")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -12221,7 +12660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9013aa9b-ed5c-4665-aed2-a957fbcf174b")
-		(property "Reference" "R24"
+		(property "Reference" "R29"
 			(at 116.84 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12231,7 +12670,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12283,7 +12722,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R24")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -12413,6 +12852,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 135.89 172.72 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90dff3cb-1e0f-48ea-876f-9d55c01b4dd4")
+		(property "Reference" "R33"
+			(at 135.89 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47R"
+			(at 135.89 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 170.942 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b85e8c-ebb4-4c3e-ae8d-a27ff01a39fb")
+		)
+		(pin "2"
+			(uuid "3afe4858-6e95-4200-852f-ee57f692202b")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 86.36 167.64 0)
 		(unit 1)
@@ -12423,7 +12942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91f71284-bfad-44ec-b0e6-1f7a670aa59e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 86.36 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12483,7 +13002,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12501,8 +13020,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ae7081-9c7c-4ef4-8c8a-9c149ed4e8fc")
-		(property "Reference" "Q7"
-			(at 124.46 71.12 0)
+		(property "Reference" "Q8"
+			(at 123.19 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12513,7 +13032,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 73.66 0)
+			(at 123.19 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12590,15 +13109,16 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 200.66 0)
+		(lib_id "Device:R")
+		(at 135.89 161.29 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12606,44 +13126,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9671bdc1-0750-41c9-875b-9539b1dcc138")
-		(property "Reference" "Q15"
-			(at 134.62 201.93 0)
+		(uuid "9d77df51-9a9e-4cc1-a462-d9426bf06ab1")
+		(property "Reference" "R32"
+			(at 135.89 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "2N7000"
-			(at 134.62 204.47 0)
+		(property "Value" "47R"
+			(at 135.89 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 202.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 204.47 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 159.512 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12651,11 +13156,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 200.66 0)
+		(property "Datasheet" ""
+			(at 135.89 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,18 +13181,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9f59b66-cb1f-494c-be96-1be6d77b682e")
-		)
-		(pin "3"
-			(uuid "5a39b5fb-d5e4-445a-830a-b9a6e5e84f31")
+			(uuid "f19239a0-259e-47e3-a22a-db7f2cb797f5")
 		)
 		(pin "2"
-			(uuid "f33feded-cfff-42e1-8b07-670c40370c9b")
+			(uuid "03447d41-fd23-4ccf-85e9-23acc7535618")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q15")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -12790,8 +13302,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 177.8 0)
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12799,9 +13311,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a2bc6833-ef90-4785-bba5-b104f42d3fe4")
+		(uuid "a2934556-fcd5-4d6b-8b2d-de9b27cd1895")
 		(property "Reference" "Q13"
-			(at 134.62 179.07 0)
+			(at 124.46 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12811,8 +13323,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2N7000"
-			(at 134.62 181.61 0)
+		(property "Value" "TN2106"
+			(at 124.46 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12823,32 +13335,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 177.8 0)
+			(at 130.81 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12858,14 +13345,36 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "2eb606e4-a49b-4c99-a667-4abc768ad5d2")
+		(property "Datasheet" ""
+			(at 125.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "7f2e9905-fe50-41e6-9b17-788b490b4fbe")
+			(uuid "aea03bfb-3ccb-4ddc-bd2d-a0ada4f8a3f1")
+		)
+		(pin "1"
+			(uuid "dad8635e-c6ef-4b7b-ac32-dbb018c28da3")
 		)
 		(pin "2"
-			(uuid "4ceda37e-9a78-42ab-a2c4-f5d2869765e1")
+			(uuid "9b758546-c34e-4cb6-ae15-18c24fbba6d9")
 		)
 		(instances
 			(project "bvclock"
@@ -12993,7 +13502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a382f78a-2696-4b3b-a3f1-44bc9b59e2fa")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR068"
 			(at 128.27 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -13053,7 +13562,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR061")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -13176,7 +13685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7aa0cb4-fa53-40a5-9686-e0055beb9355")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 86.36 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13236,7 +13745,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13253,7 +13762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a84941a8-8822-49a4-9ae3-23712fe321d9")
-		(property "Reference" "D56"
+		(property "Reference" "D55"
 			(at 87.63 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13328,7 +13837,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "D56")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -13345,7 +13854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2388d22-9e11-4f19-92a0-6536730d37bf")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR067"
 			(at 106.68 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -13405,15 +13914,16 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR060")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 135.89 223.52 0)
+		(lib_id "Device:R")
+		(at 135.89 148.59 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13421,44 +13931,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b66400ca-5488-4ada-8ff3-90974a372ff3")
-		(property "Reference" "Q17"
-			(at 134.62 224.79 0)
+		(uuid "b6740a92-76cf-4356-817f-b7e89b20169b")
+		(property "Reference" "R31"
+			(at 135.89 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "2N7000"
-			(at 134.62 227.33 0)
+		(property "Value" "47R"
+			(at 135.89 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 140.97 225.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 140.97 227.33 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 146.812 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13466,11 +13961,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 135.89 223.52 0)
+		(property "Datasheet" ""
+			(at 135.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,18 +13986,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "31abf529-a215-403b-ba48-f803c21fe8ec")
-		)
-		(pin "3"
-			(uuid "e2b3cc2e-b6af-4092-9c99-4aef3ac110ed")
+			(uuid "02a717ba-170a-4f5f-b69f-f68681d223b8")
 		)
 		(pin "2"
-			(uuid "c561c39a-8452-4db7-ad8e-7c57a34d01a1")
+			(uuid "703f8aaf-d4eb-4653-b6e8-a74e068db1ef")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q17")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -13509,7 +14011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b76f2735-a70f-4709-9268-a925c26a65b4")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 116.84 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13519,7 +14021,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +14073,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -13817,7 +14319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1f2411b-3218-43cd-b245-7f1a2bdb4a5e")
-		(property "Reference" "D54"
+		(property "Reference" "D53"
 			(at 74.93 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13892,7 +14394,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "D54")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -14015,7 +14517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4e44720-d5e7-41d6-b5ba-15fef48c5386")
-		(property "Reference" "R27"
+		(property "Reference" "R22"
 			(at 36.83 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14025,7 +14527,7 @@
 				)
 			)
 		)
-		(property "Value" "56R"
+		(property "Value" "47R"
 			(at 36.83 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14077,7 +14579,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R27")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -14094,7 +14596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c52eb33b-4f4f-4745-8538-bcd058543227")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR049"
 			(at 31.75 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -14154,7 +14656,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR042")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14276,6 +14778,86 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
 					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 184.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c954f832-d41e-410d-b01a-ea9d41e31c6d")
+		(property "Reference" "R34"
+			(at 135.89 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47R"
+			(at 135.89 184.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 182.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8743f0-674d-4337-9dbb-59880ac2a6f7")
+		)
+		(pin "2"
+			(uuid "ab880c07-61c8-48e5-b21d-f3c70901b7c0")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -14507,93 +15089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 29.21 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d55e2718-8566-4670-83d1-114727e35485")
-		(property "Reference" "Q20"
-			(at 27.94 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 27.94 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 34.29 226.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 34.29 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 29.21 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04947be9-3b86-4e40-b0e9-ff1b60584291")
-		)
-		(pin "3"
-			(uuid "56373527-9001-4a60-8646-92c5e3c6acea")
-		)
-		(pin "2"
-			(uuid "60f6abbd-dee8-4955-98e7-7938626f6c46")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VEE")
 		(at 140.97 228.6 180)
 		(unit 1)
@@ -14604,7 +15099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7d1b62b-0809-4126-98b2-6469b0b45593")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR069"
 			(at 140.97 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -14664,7 +15159,175 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR062")
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 29.21 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9e9078d-a147-4ea7-bd02-c388cb4921dc")
+		(property "Reference" "Q2"
+			(at 27.94 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TN2106"
+			(at 27.94 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 34.29 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 29.21 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "66798174-6f8b-4d5f-b070-a42a51dedac3")
+		)
+		(pin "1"
+			(uuid "767756ed-7f7b-4a1d-b180-1932c71123ba")
+		)
+		(pin "2"
+			(uuid "384f98b7-ca31-4cf1-9029-00768ca1f84b")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db3fc78b-3dbf-4baf-978f-f186168c2909")
+		(property "Reference" "Q17"
+			(at 124.46 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TN2106"
+			(at 124.46 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 130.81 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8d0aaaff-27cd-4753-99c6-e2a132994d1c")
+		)
+		(pin "1"
+			(uuid "45530578-5f0a-48f9-af8e-18280c9976d4")
+		)
+		(pin "2"
+			(uuid "dd95d6b4-3ad7-446c-9fd3-9002873d0161")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -14682,8 +15345,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfafc95a-3d9c-484b-9b46-40e05e779c0b")
-		(property "Reference" "Q4"
-			(at 124.46 36.83 0)
+		(property "Reference" "Q5"
+			(at 123.19 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14694,7 +15357,7 @@
 			)
 		)
 		(property "Value" "S8550"
-			(at 124.46 39.37 0)
+			(at 123.19 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14771,7 +15434,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -14789,7 +15452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f01c9d-4502-4474-ba26-497b0f1d604f")
-		(property "Reference" "RN4"
+		(property "Reference" "RN3"
 			(at 83.82 219.9639 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14862,15 +15525,16 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "RN4")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 29.21 209.55 0)
+		(lib_id "Device:R")
+		(at 135.89 207.01 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14878,44 +15542,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e9c86320-9890-447c-88eb-50789c11069e")
-		(property "Reference" "Q19"
-			(at 27.94 210.82 0)
+		(uuid "e57a5df6-ac31-4aa7-9c1e-d235f0c5d6b9")
+		(property "Reference" "R36"
+			(at 135.89 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "2N7000"
-			(at 27.94 213.36 0)
+		(property "Value" "47R"
+			(at 135.89 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 34.29 211.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 34.29 213.36 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 205.232 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14923,11 +15572,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 29.21 209.55 0)
+		(property "Datasheet" ""
+			(at 135.89 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14938,18 +15597,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca5b8ebd-599f-4835-a56c-de20ec72aaab")
-		)
-		(pin "3"
-			(uuid "5a81ce74-e42f-4e38-a717-97c4a5c83db7")
+			(uuid "fef64d1a-9a00-4e71-a65c-f784a934daaa")
 		)
 		(pin "2"
-			(uuid "5e863f7c-7285-43c6-9940-aa133dbd696d")
+			(uuid "7f949ae3-b543-4398-bab4-d0be8149db0b")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "Q19")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -14966,7 +15622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb2f8b58-53d4-4231-bd44-e745ea911d80")
-		(property "Reference" "R22"
+		(property "Reference" "R27"
 			(at 116.84 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14976,7 +15632,7 @@
 				)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "100R"
 			(at 116.84 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15028,7 +15684,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "R22")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -15291,7 +15947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec304c12-0deb-4927-ad6b-8293b254e5d7")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 44.45 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15355,7 +16011,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -15372,7 +16028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edc8e920-9894-4a1e-8327-6250b1e021d2")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR050"
 			(at 31.75 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -15432,7 +16088,91 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR043")
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SGD")
+		(at 125.73 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efc8bd44-7a53-4d2b-a07c-a59488fa7b53")
+		(property "Reference" "Q12"
+			(at 124.46 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TN2106"
+			(at 124.46 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+			(at 130.81 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "34ca11d3-1e46-4e62-ae68-5997248e47be")
+		)
+		(pin "1"
+			(uuid "41deeec5-13f9-4743-916d-f36ad00b726a")
+		)
+		(pin "2"
+			(uuid "187c1c6b-49f2-437e-b426-160e89dd98b4")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -15449,7 +16189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0a2c621-4221-4f2c-b396-36e195d0f864")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 78.74 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15509,7 +16249,7 @@
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/7790e522-fd12-4d00-a53d-bfb78be60a7a"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)

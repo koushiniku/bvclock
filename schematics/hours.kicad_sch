@@ -3475,6 +3475,994 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "74xx:74LS32"
+			(body_styles demorgan)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS32"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad 2-input OR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL Or2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP?14*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LS32_1_1"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_1_2"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_2_1"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_2_2"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_3_1"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_3_2"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_4_1"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_4_2"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_5_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS32_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3770,7 +4758,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Network08_Split"
+		(symbol "Device:R_Network04_Split"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3790,7 +4778,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Network08_Split"
+			(property "Value" "R_Network04_Split"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3800,7 +4788,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(property "Footprint" "Resistor_THT:R_Array_SIP5"
 				(at -2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3822,7 +4810,7 @@
 					)
 				)
 			)
-			(property "Description" "8 resistor network, star topology, bussed resistors, split"
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3855,7 +4843,7 @@
 					)
 				)
 			)
-			(symbol "R_Network08_Split_0_1"
+			(symbol "R_Network04_Split_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -3886,7 +4874,7 @@
 					)
 				)
 			)
-			(symbol "R_Network08_Split_1_1"
+			(symbol "R_Network04_Split_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -3906,7 +4894,7 @@
 					)
 				)
 			)
-			(symbol "R_Network08_Split_2_1"
+			(symbol "R_Network04_Split_2_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -3926,7 +4914,7 @@
 					)
 				)
 			)
-			(symbol "R_Network08_Split_3_1"
+			(symbol "R_Network04_Split_3_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -3946,7 +4934,7 @@
 					)
 				)
 			)
-			(symbol "R_Network08_Split_4_1"
+			(symbol "R_Network04_Split_4_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -3958,86 +4946,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network08_Split_5_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R5.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network08_Split_6_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R6.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network08_Split_7_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R7.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network08_Split_8_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R8.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5596,7 +6504,7 @@
 		(uuid "08d70bb2-7a08-4b22-a9a2-9a58bff332b6")
 	)
 	(junction
-		(at 81.28 212.09)
+		(at 95.25 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c4f05a1-a419-4c4c-a472-11623aabcb4d")
@@ -5626,10 +6534,10 @@
 		(uuid "16ff831d-39b8-4771-a8a4-b81185d58841")
 	)
 	(junction
-		(at 52.07 194.31)
+		(at 110.49 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18dfd7fa-b6d6-43db-8720-4931d83a85bb")
+		(uuid "1786b606-d703-43e1-820d-3cfe34801c33")
 	)
 	(junction
 		(at 147.32 171.45)
@@ -5638,7 +6546,7 @@
 		(uuid "1a318b42-327f-4858-933e-ada83d862832")
 	)
 	(junction
-		(at 73.66 204.47)
+		(at 87.63 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f5c0a09-c99b-4ccb-a9d9-61226335f9c7")
@@ -5650,16 +6558,10 @@
 		(uuid "2a20306f-019e-4abd-8a72-d55dbba6864e")
 	)
 	(junction
-		(at 81.28 204.47)
+		(at 95.25 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a3eb0c9-fca1-426d-8731-88044e7debca")
-	)
-	(junction
-		(at 39.37 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30968acb-0a5b-403a-a6a6-f6a892896c3b")
 	)
 	(junction
 		(at 105.41 135.89)
@@ -5668,16 +6570,16 @@
 		(uuid "3116a1ae-f18c-4a80-b90d-ec9299195dc3")
 	)
 	(junction
-		(at 87.63 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "332598ab-f356-4a4d-8522-347bc9024a7a")
-	)
-	(junction
 		(at 149.86 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "336d4d77-f9a6-470d-b2ee-afacd83aa100")
+	)
+	(junction
+		(at 72.39 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b33c10-6741-4a19-9520-d2c83bc126fa")
 	)
 	(junction
 		(at 96.52 72.39)
@@ -5698,13 +6600,19 @@
 		(uuid "3d3559e1-24f7-4b27-a7dc-b542411c4c7d")
 	)
 	(junction
+		(at 48.26 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d69f0f0-0983-4fb8-802a-937941163a0d")
+	)
+	(junction
 		(at 149.86 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "406c0dd0-cbb7-4a50-bd67-d0af0afb71fc")
 	)
 	(junction
-		(at 88.9 212.09)
+		(at 102.87 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48d26fd9-d47c-4113-afda-177bb8e45e01")
@@ -5722,13 +6630,19 @@
 		(uuid "556ec766-3bc4-4b7b-b397-adcb671f870c")
 	)
 	(junction
+		(at 34.29 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55fcb2b9-739a-4040-8b46-33c8f76f2ba7")
+	)
+	(junction
 		(at 24.13 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "571dce3e-803d-4bdd-8ef2-eea13be49483")
 	)
 	(junction
-		(at 66.04 194.31)
+		(at 80.01 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c8f43f9-5a3b-48bc-8019-52f51c3da9e5")
@@ -5764,12 +6678,6 @@
 		(uuid "731638cb-c301-44d3-8bc3-59541183a928")
 	)
 	(junction
-		(at 39.37 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "744f6868-5756-4b63-9c11-1987413e4f73")
-	)
-	(junction
 		(at 87.63 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5800,22 +6708,16 @@
 		(uuid "8820529b-7000-4140-ab67-32a44287f39c")
 	)
 	(junction
-		(at 33.02 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c7866d3-00a3-418b-956e-d714f85088ff")
-	)
-	(junction
 		(at 106.68 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce4d378-8934-4f32-b02b-0378b9a85b2b")
 	)
 	(junction
-		(at 39.37 133.35)
+		(at 110.49 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d27a25e-b0c5-4b84-acde-34db8ad760d9")
+		(uuid "98c47ea9-a357-4d3b-8204-1df4532b39eb")
 	)
 	(junction
 		(at 158.75 163.83)
@@ -5828,6 +6730,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b784cb9-cd1b-4549-9690-202df3bc6aae")
+	)
+	(junction
+		(at 114.3 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d900db-bde7-4e56-ad45-0c502487c08a")
 	)
 	(junction
 		(at 158.75 212.09)
@@ -5848,10 +6756,22 @@
 		(uuid "b04201ad-e49e-4dc6-bea3-e98c0f64c516")
 	)
 	(junction
-		(at 52.07 212.09)
+		(at 96.52 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b53b3c65-2956-45ee-8d8c-bdfdfecacb23")
+	)
+	(junction
+		(at 59.69 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b63a2bef-7c4b-4cf6-a2d4-0be53e754730")
+	)
+	(junction
+		(at 21.59 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5d808a-f02a-4e3d-8da9-868e0b036f8d")
 	)
 	(junction
 		(at 87.63 118.11)
@@ -5872,16 +6792,28 @@
 		(uuid "c044679c-1449-4c59-9f15-058758d86fbc")
 	)
 	(junction
+		(at 72.39 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c854adc8-8901-4711-ba46-2b6821dd5bcd")
+	)
+	(junction
 		(at 106.68 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfdbf63d-8e60-47bd-9d84-1c937c4bded2")
 	)
 	(junction
-		(at 66.04 204.47)
+		(at 80.01 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d49fe969-4d40-4a17-9054-4355b2d6747f")
+	)
+	(junction
+		(at 105.41 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d595d554-591b-49da-9531-07608cc6c304")
 	)
 	(junction
 		(at 60.96 38.1)
@@ -5890,16 +6822,16 @@
 		(uuid "d66811af-bdf6-4336-80ae-bbdf8dde8dc9")
 	)
 	(junction
-		(at 105.41 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d95fe582-1b83-4366-b30a-03dd32b43ce1")
-	)
-	(junction
-		(at 66.04 212.09)
+		(at 80.01 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc842a0f-c5a8-482e-b6f3-6bcd93a55f4a")
+	)
+	(junction
+		(at 87.63 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd00d326-3bc8-46cf-8cf6-f8fb3fdd4c7b")
 	)
 	(junction
 		(at 80.01 110.49)
@@ -5908,16 +6840,10 @@
 		(uuid "dda15266-edb0-4611-a6d7-2eb2ed23de39")
 	)
 	(junction
-		(at 73.66 212.09)
+		(at 87.63 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddabe10b-762b-4351-8292-1c9d457ff200")
-	)
-	(junction
-		(at 114.3 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de022165-ec18-4e98-9f13-4ef0734602a4")
 	)
 	(junction
 		(at 80.01 86.36)
@@ -5938,12 +6864,6 @@
 		(uuid "eccd7aa8-6240-41f4-8f3f-cabb36cd885f")
 	)
 	(junction
-		(at 96.52 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed68e592-9abb-40de-ae97-6fe6d31fcc0b")
-	)
-	(junction
 		(at 158.75 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5956,7 +6876,13 @@
 		(uuid "f33de8b8-8d35-4c76-aeac-8386359eaaad")
 	)
 	(junction
-		(at 88.9 204.47)
+		(at 59.69 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ff9451-4fbf-4287-9b97-209b4e3e04cb")
+	)
+	(junction
+		(at 102.87 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe690276-91e1-4cf8-b47e-f5aa62794eec")
@@ -5966,8 +6892,12 @@
 		(uuid "60e2445d-b9ea-4f25-83b6-2e4cc309fc2b")
 	)
 	(no_connect
-		(at 16.51 196.85)
+		(at 34.29 217.17)
 		(uuid "6ceb93d1-ca28-47a9-b382-1bea9732c141")
+	)
+	(no_connect
+		(at 19.05 217.17)
+		(uuid "bf4f907e-b027-4b6a-ae6c-5966b9417108")
 	)
 	(bus_entry
 		(at 24.13 59.69)
@@ -6132,7 +7062,7 @@
 		(uuid "b2e69d90-a076-4ed6-9175-8ff6f7f3af0c")
 	)
 	(bus_entry
-		(at 24.13 130.81)
+		(at 24.13 133.35)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6186,7 +7116,7 @@
 		(uuid "e181fe07-5592-459e-9a84-5e5f7cf7fb84")
 	)
 	(bus_entry
-		(at 24.13 149.86)
+		(at 24.13 153.67)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6204,7 +7134,7 @@
 		(uuid "f138d57e-5260-4739-8d1c-99e9b261fbb7")
 	)
 	(bus_entry
-		(at 24.13 147.32)
+		(at 24.13 148.59)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6244,7 +7174,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 152.4) (xy 26.67 152.4)
+			(xy 26.67 156.21) (xy 34.29 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6344,16 +7274,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 38.1 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13f3288c-162e-436e-b4bf-68ffe2a53c66")
-	)
-	(wire
-		(pts
 			(xy 147.32 171.45) (xy 147.32 153.67)
 		)
 		(stroke
@@ -6394,16 +7314,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 38.1) (xy 114.3 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e79ad51-dd06-421f-b1dd-5a07826e1d98")
-	)
-	(wire
-		(pts
 			(xy 78.74 130.81) (xy 78.74 127)
 		)
 		(stroke
@@ -6411,6 +7321,16 @@
 			(type default)
 		)
 		(uuid "1ec5ca01-b279-43b4-8bd1-fefad8823da0")
+	)
+	(wire
+		(pts
+			(xy 48.26 207.01) (xy 48.26 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee23e75-6bfb-43fc-92b8-a9673c57abb7")
 	)
 	(wire
 		(pts
@@ -6431,6 +7351,16 @@
 			(type default)
 		)
 		(uuid "1fdc8e73-b22a-48ea-8100-8f299fad0314")
+	)
+	(wire
+		(pts
+			(xy 48.26 232.41) (xy 72.39 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c8189d-2ed3-4e75-8624-8bc79f6e6de1")
 	)
 	(wire
 		(pts
@@ -6464,7 +7394,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 204.47) (xy 73.66 204.47)
+			(xy 80.01 224.79) (xy 87.63 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +7434,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 212.09) (xy 88.9 212.09)
+			(xy 95.25 232.41) (xy 102.87 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6574,16 +7504,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 39.37 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31af2f70-8eaa-41c1-a5f9-2ba51c39944b")
-	)
-	(wire
-		(pts
 			(xy 69.85 102.87) (xy 106.68 102.87)
 		)
 		(stroke
@@ -6591,6 +7511,16 @@
 			(type default)
 		)
 		(uuid "320a712c-71ee-4017-8bb4-c175b3cd973e")
+	)
+	(wire
+		(pts
+			(xy 87.63 38.1) (xy 96.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c49919-3235-4a3e-a938-927b36f34d53")
 	)
 	(bus
 		(pts
@@ -6624,13 +7554,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 96.52 38.1)
+			(xy 72.39 207.01) (xy 80.01 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "389535b1-a994-4bf3-9439-da7223701b99")
+		(uuid "39ad3ec6-b7db-45ff-aebd-2ee16cfca1e0")
 	)
 	(wire
 		(pts
@@ -6664,7 +7594,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 194.31) (xy 66.04 194.31)
+			(xy 48.26 207.01) (xy 59.69 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6681,6 +7611,16 @@
 			(type default)
 		)
 		(uuid "3f9dc0a8-13a5-4951-8fa0-28634d7df5ae")
+	)
+	(wire
+		(pts
+			(xy 21.59 232.41) (xy 34.29 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400f4ab4-98a9-48d7-9955-111f08299810")
 	)
 	(wire
 		(pts
@@ -6714,17 +7654,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 212.09) (xy 33.02 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4494ce4d-814d-4cc7-a6d6-38354b872203")
-	)
-	(wire
-		(pts
-			(xy 73.66 212.09) (xy 81.28 212.09)
+			(xy 87.63 232.41) (xy 95.25 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6741,16 +7671,6 @@
 			(type default)
 		)
 		(uuid "461a103f-f2fe-4f54-b527-605d034b33d8")
-	)
-	(wire
-		(pts
-			(xy 38.1 149.86) (xy 39.37 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4639a1da-ff10-4321-a708-fa1848ff8a30")
 	)
 	(bus
 		(pts
@@ -6791,6 +7711,26 @@
 			(type default)
 		)
 		(uuid "4b126bee-febc-4f85-868a-474c85884041")
+	)
+	(wire
+		(pts
+			(xy 49.53 133.35) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf2cafe-593e-4964-901b-9dc13bf6c6a8")
+	)
+	(wire
+		(pts
+			(xy 16.51 232.41) (xy 21.59 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4cda32-d5ea-447f-a06c-93b52feb8b5d")
 	)
 	(wire
 		(pts
@@ -6934,6 +7874,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b02737-a693-403d-8650-2f13e459cf05")
+	)
+	(wire
+		(pts
 			(xy 97.79 127) (xy 80.01 127)
 		)
 		(stroke
@@ -6944,13 +7894,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 204.47) (xy 66.04 194.31)
+			(xy 110.49 224.79) (xy 118.11 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bd1d154-823f-43ed-9086-6add3752630c")
+		(uuid "69c26fe0-11e8-4f2b-a469-e05265b0090e")
 	)
 	(wire
 		(pts
@@ -7044,6 +7994,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 207.01) (xy 59.69 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d62000-17bc-4e15-ba72-61232f37870f")
+	)
+	(wire
+		(pts
 			(xy 60.96 57.15) (xy 60.96 38.1)
 		)
 		(stroke
@@ -7124,16 +8084,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 133.35) (xy 38.1 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89325483-f62d-4206-bbdb-e793279cf8ef")
-	)
-	(wire
-		(pts
 			(xy 26.67 67.31) (xy 52.07 67.31)
 		)
 		(stroke
@@ -7154,7 +8104,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 204.47) (xy 81.28 204.47)
+			(xy 87.63 224.79) (xy 95.25 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7194,6 +8144,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 38.1) (xy 123.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9226f874-8704-4c6d-b66c-46eb18ccccdb")
+	)
+	(wire
+		(pts
 			(xy 80.01 105.41) (xy 80.01 111.76)
 		)
 		(stroke
@@ -7224,13 +8184,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 212.09) (xy 96.52 212.09)
+			(xy 102.87 232.41) (xy 110.49 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b1e786f-3169-4d64-853c-867e3ef10c71")
+	)
+	(wire
+		(pts
+			(xy 80.01 205.74) (xy 80.01 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1eeeed-2355-4e4f-99ee-b61cf91e08d9")
 	)
 	(wire
 		(pts
@@ -7244,16 +8214,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 149.86) (xy 39.37 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bd6273f-a3ed-4282-97ba-6d92ab653d58")
-	)
-	(wire
-		(pts
 			(xy 149.86 184.15) (xy 149.86 186.69)
 		)
 		(stroke
@@ -7261,6 +8221,16 @@
 			(type default)
 		)
 		(uuid "9e62e022-5da5-41ec-9148-acdc351557d1")
+	)
+	(wire
+		(pts
+			(xy 48.26 228.6) (xy 48.26 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0979269-175e-4d1a-9374-824b2e177541")
 	)
 	(wire
 		(pts
@@ -7284,6 +8254,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 207.01) (xy 72.39 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a352366a-95fb-4ba7-b909-ab8f9447ecf2")
+	)
+	(wire
+		(pts
 			(xy 132.08 147.32) (xy 132.08 154.94)
 		)
 		(stroke
@@ -7294,7 +8274,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 204.47) (xy 96.52 204.47)
+			(xy 102.87 224.79) (xy 110.49 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7311,16 +8291,6 @@
 			(type default)
 		)
 		(uuid "a70dbe4f-73e7-4011-b489-36c6a9d00eee")
-	)
-	(wire
-		(pts
-			(xy 39.37 133.35) (xy 54.61 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f9d461-5d0f-4a26-8148-206f61e00ad6")
 	)
 	(wire
 		(pts
@@ -7394,7 +8364,7 @@
 	)
 	(bus
 		(pts
-			(xy 24.13 72.39) (xy 24.13 130.81)
+			(xy 24.13 72.39) (xy 24.13 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7424,7 +8394,7 @@
 	)
 	(bus
 		(pts
-			(xy 24.13 130.81) (xy 24.13 147.32)
+			(xy 24.13 133.35) (xy 24.13 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7434,7 +8404,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 204.47) (xy 88.9 204.47)
+			(xy 95.25 224.79) (xy 102.87 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7444,7 +8414,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 133.35) (xy 30.48 133.35)
+			(xy 26.67 135.89) (xy 34.29 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7474,7 +8444,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 212.09) (xy 66.04 212.09)
+			(xy 87.63 232.41) (xy 80.01 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7501,6 +8471,16 @@
 			(type default)
 		)
 		(uuid "bfa9834d-d96d-42e8-be96-0e22006aff70")
+	)
+	(wire
+		(pts
+			(xy 110.49 232.41) (xy 118.11 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c067ad1d-fd68-46c4-a615-65b81dd93736")
 	)
 	(wire
 		(pts
@@ -7564,16 +8544,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 123.19 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62c8893-f035-49d9-b3d2-5524a1b67ddd")
-	)
-	(wire
-		(pts
 			(xy 149.86 163.83) (xy 158.75 163.83)
 		)
 		(stroke
@@ -7581,16 +8551,6 @@
 			(type default)
 		)
 		(uuid "c6b23169-c270-4af3-b13c-bc14fc752177")
-	)
-	(wire
-		(pts
-			(xy 96.52 38.1) (xy 105.41 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d31e50-b2d1-47f8-adbd-5db4735bb061")
 	)
 	(wire
 		(pts
@@ -7674,7 +8634,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 212.09) (xy 66.04 212.09)
+			(xy 49.53 153.67) (xy 54.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7981269-301c-4cb0-afd2-edc67bf3b372")
+	)
+	(wire
+		(pts
+			(xy 34.29 232.41) (xy 48.26 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7724,6 +8694,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 38.1) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22f764b-3178-4ebd-a323-ac5b350e0542")
+	)
+	(wire
+		(pts
 			(xy 115.57 154.94) (xy 114.3 154.94)
 		)
 		(stroke
@@ -7731,6 +8711,16 @@
 			(type default)
 		)
 		(uuid "e33ad481-ed8c-4b6f-8895-62d563b97a3e")
+	)
+	(wire
+		(pts
+			(xy 59.69 228.6) (xy 59.69 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fac3fe-45ee-48db-991f-60837b69f1fc")
 	)
 	(wire
 		(pts
@@ -7764,7 +8754,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 130.81) (xy 30.48 130.81)
+			(xy 26.67 130.81) (xy 34.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7784,16 +8774,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 152.4) (xy 39.37 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebab2764-6a91-4841-b91a-4956980b2487")
-	)
-	(wire
-		(pts
 			(xy 78.74 66.04) (xy 78.74 69.85)
 		)
 		(stroke
@@ -7804,7 +8784,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 149.86) (xy 26.67 149.86)
+			(xy 26.67 151.13) (xy 34.29 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7814,23 +8794,13 @@
 	)
 	(bus
 		(pts
-			(xy 24.13 147.32) (xy 24.13 149.86)
+			(xy 24.13 148.59) (xy 24.13 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "edc08e01-5511-479f-a356-ef2b56523c5f")
-	)
-	(wire
-		(pts
-			(xy 54.61 149.86) (xy 54.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee6b77df-bb19-4a68-856b-1863cadfc290")
 	)
 	(wire
 		(pts
@@ -7861,6 +8831,16 @@
 			(type default)
 		)
 		(uuid "f166e9ea-891a-4000-85c6-0794283fc02e")
+	)
+	(wire
+		(pts
+			(xy 72.39 232.41) (xy 80.01 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f372ae63-a07e-41f6-abb0-e932bd389933")
 	)
 	(wire
 		(pts
@@ -8003,7 +8983,7 @@
 		(uuid "2aaf0483-b7a0-4e61-a8eb-43f460979dfd")
 	)
 	(label "HI4"
-		(at 26.67 133.35 0)
+		(at 26.67 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8033,7 +9013,7 @@
 		(uuid "5fc9602f-bd97-4c7c-9456-0a080bfe9ceb")
 	)
 	(label "HI3"
-		(at 26.67 149.86 0)
+		(at 26.67 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8143,7 +9123,7 @@
 		(uuid "9d6aae1c-9f0e-45df-9adc-29c61db42e20")
 	)
 	(label "HI5"
-		(at 26.67 152.4 0)
+		(at 26.67 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8323,86 +9303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 39.37 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02014d63-08ee-446a-899e-986d72060f6f")
-		(property "Reference" "R19"
-			(at 40.64 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 39.37 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 37.592 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "938ad939-db3a-4a8b-953d-46c6b2f0b680")
-		)
-		(pin "2"
-			(uuid "0211a24f-fcee-43f7-850a-32a888d19880")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 110.49 102.87 0)
 		(unit 1)
@@ -8433,7 +9333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 110.49 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +9434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8600,209 +9500,6 @@
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "D37")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 34.29 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "12229d89-cf20-4237-812a-7e5945d12b61")
-		(property "Reference" "D25"
-			(at 34.29 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 34.29 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 34.29 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 34.29 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 34.29 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 34.29 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1a4c3ebb-c10e-41e7-beef-69df3506e67e")
-		)
-		(pin "1"
-			(uuid "f986c2dd-299e-47a9-b6d4-b05a7a3acbf2")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network08_Split")
-		(at 105.41 41.91 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13b38f34-b0f8-4ce0-b14c-b91c661756f3")
-		(property "Reference" "RN2"
-			(at 106.68 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 105.41 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
-			(at 103.378 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 105.41 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, star topology, bussed resistors, split"
-			(at 105.41 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf4")
-		)
-		(pin "2"
-			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2430")
-		)
-		(pin "3"
-			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245711")
-		)
-		(pin "4"
-			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8a7")
-		)
-		(pin "1"
-			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7b")
-		)
-		(pin "8"
-			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6274")
-		)
-		(pin "7"
-			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c0")
-		)
-		(pin "6"
-			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af461")
-		)
-		(pin "5"
-			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc0")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "RN2")
-					(unit 3)
 				)
 			)
 		)
@@ -9083,7 +9780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9155,7 +9852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 208.28 0)
+		(at 95.25 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9165,7 +9862,7 @@
 		(dnp no)
 		(uuid "23a84650-5e89-468a-9808-fb15ac2207f5")
 		(property "Reference" "C22"
-			(at 82.55 205.74 0)
+			(at 96.52 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9176,7 +9873,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 82.55 210.82 0)
+			(at 96.52 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9186,8 +9883,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
-			(at 82.2452 212.09 0)
+		(property "Footprint" "bvclock:THT_Cap"
+			(at 96.2152 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 208.28 0)
+			(at 95.25 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +9906,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 208.28 0)
+			(at 95.25 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,8 +9932,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 39.37 137.16 0)
+		(lib_id "74xx:74LS32")
+		(at 19.05 224.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9244,9 +9941,127 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "26e19d2f-91e8-4b5b-941f-50f7f950694f")
-		(property "Reference" "R18"
-			(at 40.64 137.16 0)
+		(uuid "2cb67ad5-adb9-4375-a96c-f135c2c30999")
+		(property "Reference" "U32"
+			(at 22.86 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74HC32"
+			(at 22.86 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 19.05 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 19.05 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 19.05 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "997f96a9-938b-4614-b1e2-71ff16b8e05e")
+		)
+		(pin "6"
+			(uuid "da2284f9-2c1c-42dd-8fe6-5bebf70a702a")
+		)
+		(pin "14"
+			(uuid "78b145f4-3bcc-46da-88bf-d21afae92fc8")
+		)
+		(pin "1"
+			(uuid "00866608-0fd1-4ee8-907c-556cf4a20127")
+		)
+		(pin "2"
+			(uuid "4dbe1164-09a1-44c0-bda1-66399f773ced")
+		)
+		(pin "12"
+			(uuid "a8e8bb96-7d51-4d30-b5ba-4268128c0dc1")
+		)
+		(pin "7"
+			(uuid "a516cb51-da6b-4db9-81f6-3a4c0a6a8d74")
+		)
+		(pin "13"
+			(uuid "e1635a1c-9992-43d4-9878-0bb2c9c43129")
+		)
+		(pin "3"
+			(uuid "7b769575-d3c8-4efc-9617-299e308e9323")
+		)
+		(pin "5"
+			(uuid "a023be83-45e4-4bec-b64e-5d0e6a01bc85")
+		)
+		(pin "10"
+			(uuid "9cd8fca3-a6a8-425b-bce5-68c1c4d2d234")
+		)
+		(pin "9"
+			(uuid "c4c5ddd5-03d6-4d7a-b493-6830e297e0be")
+		)
+		(pin "8"
+			(uuid "47f53b81-742d-4c98-be80-b8a1a8684b70")
+		)
+		(pin "11"
+			(uuid "d2eac042-2924-460b-b204-ad34f086c77b")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 41.91 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d6dff3f-9318-4a13-9ae6-91fc8c53d5c1")
+		(property "Reference" "R20"
+			(at 97.79 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9257,7 +10072,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 39.37 137.16 90)
+			(at 96.52 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9266,8 +10081,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 37.592 137.16 90)
+		(property "Footprint" "bvclock:THT_R_Vertical"
+			(at 94.742 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9278,7 +10093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 137.16 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9289,7 +10104,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 137.16 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9300,15 +10115,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c029107-5ce7-4826-9abe-6f173308e780")
+			(uuid "6517acb6-014e-4ac4-b44d-fb2daceb2ddc")
 		)
 		(pin "2"
-			(uuid "cbdb1387-880d-4d59-915b-5bb5535c5ea6")
+			(uuid "26354005-9010-439b-8ac4-64e23c926961")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9345,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 110.49 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9446,7 +10261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9547,7 +10362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9618,85 +10433,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ccb0c21-ea33-467a-9947-bc47446f3fba")
-		(property "Reference" "#PWR040"
-			(at 39.37 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "835d781a-5944-4c26-a211-093a012614e5")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 88.9 208.28 0)
+		(at 102.87 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9706,7 +10444,7 @@
 		(dnp no)
 		(uuid "3d113954-18c5-49a3-a0f3-8032acb24fd2")
 		(property "Reference" "C23"
-			(at 90.17 205.74 0)
+			(at 104.14 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9717,7 +10455,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 90.17 210.82 0)
+			(at 104.14 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9727,8 +10465,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
-			(at 89.8652 212.09 0)
+		(property "Footprint" "bvclock:THT_Cap"
+			(at 103.8352 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9739,7 +10477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 208.28 0)
+			(at 102.87 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9750,7 +10488,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 208.28 0)
+			(at 102.87 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9771,6 +10509,95 @@
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "C23")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 123.19 41.91 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3dd32079-3219-4f68-b58c-7f968c1ba036")
+		(property "Reference" "RN2"
+			(at 124.46 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 123.19 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 121.158 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 123.19 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 123.19 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "762ee350-c1f3-49fd-8e70-cbe97b83dee8")
+		)
+		(pin "3"
+			(uuid "a2f635fc-b7c6-4ff0-887c-66fcf8c527f9")
+		)
+		(pin "1"
+			(uuid "3c4894c7-6a07-450c-b459-d2e8de295aa3")
+		)
+		(pin "2"
+			(uuid "e337b988-5dba-47eb-8042-a963113ffb05")
+		)
+		(pin "4"
+			(uuid "b8d345d8-1aee-448c-b515-0f590da3fe4b")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
+					(unit 3)
 				)
 			)
 		)
@@ -9806,7 +10633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 110.49 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9907,7 +10734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10008,7 +10835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 101.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -10109,7 +10936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10364,7 +11191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 92.71 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10436,108 +11263,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 34.29 133.35 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5be825f5-50fc-4a6d-9861-1640d2840f53")
-		(property "Reference" "D24"
-			(at 34.29 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 34.29 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 34.29 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 34.29 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 34.29 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 34.29 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5b0e6586-f9cb-4faa-be2c-e96f11c1ba74")
-		)
-		(pin "1"
-			(uuid "3d003ff9-8ae4-4052-9084-d4c8323a1189")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
 		(at 83.82 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -10567,7 +11292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10638,110 +11363,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 34.29 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f9f9937-4adc-4775-b25e-50ef913a4125")
-		(property "Reference" "D26"
-			(at 34.29 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 34.29 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aac7b7c3-8f09-4e27-8f0b-f29f25fa8fc8")
-		)
-		(pin "1"
-			(uuid "38b5794c-d506-4d34-8355-7bbbce55fe31")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 66.04 208.28 0)
+		(at 80.01 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10751,7 +11374,7 @@
 		(dnp no)
 		(uuid "6808b0dd-5643-4f8f-8e5d-58443faa03fb")
 		(property "Reference" "C20"
-			(at 67.31 205.74 0)
+			(at 81.28 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10762,7 +11385,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 67.31 210.82 0)
+			(at 81.28 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10772,8 +11395,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
-			(at 67.0052 212.09 0)
+		(property "Footprint" "bvclock:THT_Cap"
+			(at 80.9752 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10784,7 +11407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 208.28 0)
+			(at 80.01 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10795,7 +11418,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 208.28 0)
+			(at 80.01 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10851,7 +11474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 92.71 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10952,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 92.71 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11023,83 +11646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "707edab7-c54b-4d0e-a38e-c26dd5d4610b")
-		(property "Reference" "#PWR039"
-			(at 39.37 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "819486e0-add5-4d89-a561-df40c9318c51")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 101.6 135.89 0)
 		(unit 1)
@@ -11130,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 101.6 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11202,7 +11748,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 208.28 0)
+		(at 87.63 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11212,7 +11758,7 @@
 		(dnp no)
 		(uuid "7975c688-1731-4c29-9a50-5d9d04f228c8")
 		(property "Reference" "C21"
-			(at 74.93 205.74 0)
+			(at 88.9 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11223,7 +11769,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 74.93 210.82 0)
+			(at 88.9 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11233,8 +11779,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
-			(at 74.6252 212.09 0)
+		(property "Footprint" "bvclock:THT_Cap"
+			(at 88.5952 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11245,7 +11791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 208.28 0)
+			(at 87.63 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11256,7 +11802,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 208.28 0)
+			(at 87.63 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,9 +11828,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 34.29 130.81 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 118.11 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11292,29 +11837,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81c6bb0b-31c3-4616-bfc9-62a4463c2127")
-		(property "Reference" "D23"
-			(at 34.29 125.73 0)
+		(uuid "7c496b5e-a013-4650-a95d-e9905f451f5f")
+		(property "Reference" "C33"
+			(at 119.38 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 34.29 128.27 0)
+		(property "Value" "100N"
+			(at 119.38 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 34.29 130.81 0)
+		(property "Footprint" "bvclock:THT_Cap"
+			(at 119.0752 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,8 +11871,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 34.29 130.81 0)
+		(property "Datasheet" ""
+			(at 118.11 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11335,30 +11882,8 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 34.29 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 34.29 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 130.81 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,16 +11894,194 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fa66f84-2abb-405b-9c6e-e533e05826b0")
+			(uuid "72ee38a7-4b95-4406-bddf-3c714092ea22")
 		)
 		(pin "1"
-			(uuid "d102f049-403d-41e1-bf2e-ad030f80635d")
+			(uuid "8be2f12e-45c8-4f9e-a864-bb3ac603b991")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "D23")
+					(reference "C33")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 105.41 41.91 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c7a97a2-61df-4918-a039-656fc9d7a8ae")
+		(property "Reference" "RN2"
+			(at 106.68 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 105.41 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 103.378 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 105.41 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "762ee350-c1f3-49fd-8e70-cbe97b83dee9")
+		)
+		(pin "3"
+			(uuid "a2f635fc-b7c6-4ff0-887c-66fcf8c527fa")
+		)
+		(pin "1"
+			(uuid "902646fa-7d6e-45ac-a198-3974e24b39be")
+		)
+		(pin "2"
+			(uuid "e337b988-5dba-47eb-8042-a963113ffb06")
+		)
+		(pin "4"
+			(uuid "6c850fcd-6a09-4f9a-b1e3-7d90ad472ac1")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 87.63 41.91 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e217756-ab5e-45ed-b738-ecea4ad25b16")
+		(property "Reference" "RN2"
+			(at 88.9 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 87.63 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 85.598 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "762ee350-c1f3-49fd-8e70-cbe97b83deea")
+		)
+		(pin "3"
+			(uuid "a2f635fc-b7c6-4ff0-887c-66fcf8c527fb")
+		)
+		(pin "1"
+			(uuid "8146d8ec-d857-4fe4-87fd-16aec966f309")
+		)
+		(pin "2"
+			(uuid "cc9d35df-01e5-43df-a427-aed91ad46d3e")
+		)
+		(pin "4"
+			(uuid "b8d345d8-1aee-448c-b515-0f590da3fe4c")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
+					(unit 4)
 				)
 			)
 		)
@@ -11607,7 +12310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11678,110 +12381,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network08_Split")
-		(at 123.19 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f66e3a1-769c-4fbb-8e51-df290ce8528d")
-		(property "Reference" "RN2"
-			(at 124.46 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 123.19 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
-			(at 121.158 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 123.19 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, star topology, bussed resistors, split"
-			(at 123.19 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf5")
-		)
-		(pin "2"
-			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2431")
-		)
-		(pin "3"
-			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245712")
-		)
-		(pin "4"
-			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8a8")
-		)
-		(pin "1"
-			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7c")
-		)
-		(pin "8"
-			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6275")
-		)
-		(pin "7"
-			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c1")
-		)
-		(pin "6"
-			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af462")
-		)
-		(pin "5"
-			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc1")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "74HC04_4")
 		(lib_id "74xx:74HC04")
-		(at 16.51 204.47 90)
+		(at 34.29 224.79 90)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11791,7 +12393,7 @@
 		(dnp no)
 		(uuid "8fdd4374-a8fa-418f-91ff-1ee9bde4380a")
 		(property "Reference" "U11"
-			(at 20.32 203.2 90)
+			(at 36.83 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11802,7 +12404,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 20.32 205.74 90)
+			(at 36.83 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11813,7 +12415,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 16.51 204.47 0)
+			(at 34.29 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11824,7 +12426,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 16.51 204.47 0)
+			(at 34.29 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,7 +12437,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 16.51 204.47 0)
+			(at 34.29 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11927,7 +12529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12120,7 +12722,7 @@
 	)
 	(symbol
 		(lib_id "bvclock:74HC139")
-		(at 33.02 203.2 0)
+		(at 48.26 219.71 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12130,7 +12732,7 @@
 		(dnp no)
 		(uuid "93c4a709-b7bc-4940-9f2c-1703c80ebaf8")
 		(property "Reference" "U12"
-			(at 38.1 201.93 0)
+			(at 48.26 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12141,7 +12743,7 @@
 			)
 		)
 		(property "Value" "74HC139"
-			(at 38.1 204.47 0)
+			(at 48.26 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12152,7 +12754,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 33.02 203.2 0)
+			(at 48.26 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12163,7 +12765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 203.2 0)
+			(at 48.26 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12174,7 +12776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 203.2 0)
+			(at 48.26 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12272,7 +12874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12450,7 +13052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12551,7 +13153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12699,89 +13301,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 87.63 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7864e32-ac11-495e-86aa-ff5be115b3a9")
-		(property "Reference" "R20"
-			(at 88.9 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 87.63 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 85.852 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5996dd42-50eb-4969-a83f-1ba344685f1f")
-		)
-		(pin "2"
-			(uuid "2d0e30f9-bf68-435b-8456-5cc7de49204c")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "74HC04_5")
 		(lib_id "74xx:74HC04")
-		(at 46.99 149.86 0)
+		(at 54.61 146.05 90)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12791,27 +13313,29 @@
 		(dnp no)
 		(uuid "b0d59204-6970-4bef-8650-0650c280011d")
 		(property "Reference" "U11"
-			(at 46.99 142.24 0)
+			(at 58.42 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "74HC04"
-			(at 46.99 144.78 0)
+			(at 58.42 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 46.99 149.86 0)
+			(at 54.61 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 46.99 149.86 0)
+			(at 54.61 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +13357,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 46.99 149.86 0)
+			(at 54.61 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12925,7 +13449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13026,7 +13550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13213,109 +13737,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network08_Split")
-		(at 96.52 41.91 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf8cd473-1e5d-4dc7-afd4-fdcca8e93b57")
-		(property "Reference" "RN2"
-			(at 97.79 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 96.52 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
-			(at 94.488 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 96.52 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, star topology, bussed resistors, split"
-			(at 96.52 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf6")
-		)
-		(pin "2"
-			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2432")
-		)
-		(pin "3"
-			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245713")
-		)
-		(pin "4"
-			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8a9")
-		)
-		(pin "1"
-			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7d")
-		)
-		(pin "8"
-			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6276")
-		)
-		(pin "7"
-			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c2")
-		)
-		(pin "6"
-			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af463")
-		)
-		(pin "5"
-			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc2")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "RN2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC04")
-		(at 52.07 203.2 0)
+		(at 59.69 219.71 0)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13325,7 +13748,7 @@
 		(dnp no)
 		(uuid "c3172e54-9bc1-43ac-a4e7-5abc9983dc84")
 		(property "Reference" "U11"
-			(at 57.15 201.93 0)
+			(at 59.69 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13336,7 +13759,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 57.15 204.47 0)
+			(at 59.69 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13347,7 +13770,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 52.07 203.2 0)
+			(at 59.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13358,7 +13781,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 52.07 203.2 0)
+			(at 59.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13369,7 +13792,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 52.07 203.2 0)
+			(at 59.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13432,7 +13855,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 66.04 194.31 0)
+		(at 80.01 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13442,7 +13865,7 @@
 		(dnp no)
 		(uuid "c558306e-4bdf-4a51-b338-4bbf2fe062b7")
 		(property "Reference" "#PWR043"
-			(at 66.04 198.12 0)
+			(at 80.01 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13453,7 +13876,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 66.04 190.5 0)
+			(at 80.01 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13463,7 +13886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 194.31 0)
+			(at 80.01 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13474,7 +13897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 194.31 0)
+			(at 80.01 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13485,7 +13908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 66.04 194.31 0)
+			(at 80.01 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13777,7 +14200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13848,109 +14271,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network08_Split")
-		(at 114.3 41.91 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d45301fa-a052-4286-9d3b-17d98bf2d1f9")
-		(property "Reference" "RN2"
-			(at 115.57 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4K7"
-			(at 114.3 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
-			(at 112.268 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 114.3 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, star topology, bussed resistors, split"
-			(at 114.3 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "b97e6304-275d-4a25-8841-6d5db82cbcf7")
-		)
-		(pin "2"
-			(uuid "a4c5216c-1cc5-4910-a639-3a28753d2433")
-		)
-		(pin "3"
-			(uuid "51b6d21d-1c25-46bd-81b7-5f0939245714")
-		)
-		(pin "4"
-			(uuid "a542fd0e-b75d-4329-8486-c7681a33b8aa")
-		)
-		(pin "1"
-			(uuid "4fcfaa26-cc51-44e1-aad5-10584044ac7e")
-		)
-		(pin "8"
-			(uuid "c4d75975-b10a-41a5-8c09-a69797ae6277")
-		)
-		(pin "7"
-			(uuid "2204065a-9293-4c4a-9bbe-61ccc8acb2c3")
-		)
-		(pin "6"
-			(uuid "6e21e02e-2332-4bff-89aa-a4696a1af464")
-		)
-		(pin "5"
-			(uuid "0e9f3a90-894c-4a1e-a4cc-67649f3d9fc3")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
-					(reference "RN2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 96.52 208.28 0)
+		(at 110.49 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13960,7 +14282,7 @@
 		(dnp no)
 		(uuid "d47715e0-478f-4038-94cf-7a5927abd6e2")
 		(property "Reference" "C24"
-			(at 97.79 205.74 0)
+			(at 111.76 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13971,7 +14293,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 97.79 210.82 0)
+			(at 111.76 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13981,8 +14303,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
-			(at 97.4852 212.09 0)
+		(property "Footprint" "bvclock:THT_Cap"
+			(at 111.4552 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13993,7 +14315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 208.28 0)
+			(at 110.49 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14004,7 +14326,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 208.28 0)
+			(at 110.49 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14031,7 +14353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 212.09 0)
+		(at 80.01 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14041,7 +14363,7 @@
 		(dnp no)
 		(uuid "dceb3527-5974-4d5c-a697-aaf8f3da5e67")
 		(property "Reference" "#PWR044"
-			(at 66.04 218.44 0)
+			(at 80.01 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14052,7 +14374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 215.9 0)
+			(at 80.01 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14062,7 +14384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 212.09 0)
+			(at 80.01 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14073,7 +14395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 212.09 0)
+			(at 80.01 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14084,7 +14406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 212.09 0)
+			(at 80.01 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14102,6 +14424,236 @@
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "#PWR044")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS32")
+		(at 41.91 153.67 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df3ccca4-5fc1-4628-8f8f-022df0628baa")
+		(property "Reference" "U32"
+			(at 41.91 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC32"
+			(at 41.91 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 41.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 41.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 41.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "997f96a9-938b-4614-b1e2-71ff16b8e05d")
+		)
+		(pin "6"
+			(uuid "da2284f9-2c1c-42dd-8fe6-5bebf70a7029")
+		)
+		(pin "14"
+			(uuid "78b145f4-3bcc-46da-88bf-d21afae92fc7")
+		)
+		(pin "1"
+			(uuid "00866608-0fd1-4ee8-907c-556cf4a20126")
+		)
+		(pin "2"
+			(uuid "4dbe1164-09a1-44c0-bda1-66399f773cec")
+		)
+		(pin "12"
+			(uuid "2e169c3d-a527-4ec5-896d-fa02a26a1436")
+		)
+		(pin "7"
+			(uuid "a516cb51-da6b-4db9-81f6-3a4c0a6a8d73")
+		)
+		(pin "13"
+			(uuid "433fb823-ad20-470d-8b66-02a807ceff8d")
+		)
+		(pin "3"
+			(uuid "7b769575-d3c8-4efc-9617-299e308e9322")
+		)
+		(pin "5"
+			(uuid "a023be83-45e4-4bec-b64e-5d0e6a01bc84")
+		)
+		(pin "10"
+			(uuid "09168f8c-8952-44ee-bad9-5474b076e9ad")
+		)
+		(pin "9"
+			(uuid "71af7ebf-5f53-42ab-b1a7-423d4a26bddc")
+		)
+		(pin "8"
+			(uuid "a1fedb06-bf15-4137-8f4c-3be2c0456067")
+		)
+		(pin "11"
+			(uuid "fd4deb40-3221-4a57-afea-4c61feaead8e")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "U32")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS32")
+		(at 41.91 133.35 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3a13127-cc1b-4ede-8609-2891a22fe8d4")
+		(property "Reference" "U32"
+			(at 41.91 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC32"
+			(at 41.91 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 41.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 41.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 41.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "68e2b0c6-9ba9-465d-b619-a51be3edaeca")
+		)
+		(pin "6"
+			(uuid "921e3b89-e325-4a8c-bed9-bc0d55a9642a")
+		)
+		(pin "14"
+			(uuid "78b145f4-3bcc-46da-88bf-d21afae92fc6")
+		)
+		(pin "1"
+			(uuid "00866608-0fd1-4ee8-907c-556cf4a20125")
+		)
+		(pin "2"
+			(uuid "4dbe1164-09a1-44c0-bda1-66399f773ceb")
+		)
+		(pin "12"
+			(uuid "2e169c3d-a527-4ec5-896d-fa02a26a1435")
+		)
+		(pin "7"
+			(uuid "a516cb51-da6b-4db9-81f6-3a4c0a6a8d72")
+		)
+		(pin "13"
+			(uuid "433fb823-ad20-470d-8b66-02a807ceff8c")
+		)
+		(pin "3"
+			(uuid "7b769575-d3c8-4efc-9617-299e308e9321")
+		)
+		(pin "5"
+			(uuid "64ca3991-0f1d-4f2e-9127-90f4a6fad1ae")
+		)
+		(pin "10"
+			(uuid "9cd8fca3-a6a8-425b-bce5-68c1c4d2d232")
+		)
+		(pin "9"
+			(uuid "c4c5ddd5-03d6-4d7a-b493-6830e297e0bc")
+		)
+		(pin "8"
+			(uuid "47f53b81-742d-4c98-be80-b8a1a8684b6e")
+		)
+		(pin "11"
+			(uuid "fd4deb40-3221-4a57-afea-4c61feaead8d")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "U32")
+					(unit 2)
 				)
 			)
 		)
@@ -14214,7 +14766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14285,6 +14837,123 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS32")
+		(at 72.39 219.71 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecd4c636-cda8-4a71-8b26-26dbeccb87ac")
+		(property "Reference" "U32"
+			(at 72.39 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC32"
+			(at 72.39 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 72.39 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 72.39 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad 2-input OR"
+			(at 72.39 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "997f96a9-938b-4614-b1e2-71ff16b8e05b")
+		)
+		(pin "6"
+			(uuid "da2284f9-2c1c-42dd-8fe6-5bebf70a7027")
+		)
+		(pin "14"
+			(uuid "19cc63bb-228f-4b49-9206-81f80ecafabb")
+		)
+		(pin "1"
+			(uuid "00866608-0fd1-4ee8-907c-556cf4a20124")
+		)
+		(pin "2"
+			(uuid "4dbe1164-09a1-44c0-bda1-66399f773cea")
+		)
+		(pin "12"
+			(uuid "2e169c3d-a527-4ec5-896d-fa02a26a1434")
+		)
+		(pin "7"
+			(uuid "dd5f1328-6728-4b81-8828-57821e2c20a5")
+		)
+		(pin "13"
+			(uuid "433fb823-ad20-470d-8b66-02a807ceff8b")
+		)
+		(pin "3"
+			(uuid "7b769575-d3c8-4efc-9617-299e308e9320")
+		)
+		(pin "5"
+			(uuid "a023be83-45e4-4bec-b64e-5d0e6a01bc82")
+		)
+		(pin "10"
+			(uuid "9cd8fca3-a6a8-425b-bce5-68c1c4d2d231")
+		)
+		(pin "9"
+			(uuid "c4c5ddd5-03d6-4d7a-b493-6830e297e0bb")
+		)
+		(pin "8"
+			(uuid "47f53b81-742d-4c98-be80-b8a1a8684b6d")
+		)
+		(pin "11"
+			(uuid "fd4deb40-3221-4a57-afea-4c61feaead8c")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "U32")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 83.82 125.73 0)
 		(unit 1)
@@ -14315,7 +14984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "bvclock:THT_D_Vertical"
 			(at 83.82 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14619,6 +15288,95 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 114.3 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6b5a41c-b9a0-471c-a573-2f782b272b34")
+		(property "Reference" "RN2"
+			(at 115.57 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 114.3 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 112.268 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "762ee350-c1f3-49fd-8e70-cbe97b83deeb")
+		)
+		(pin "3"
+			(uuid "ef00a34d-59de-4b60-a978-a42a61bb556d")
+		)
+		(pin "1"
+			(uuid "e3416be1-cdae-464f-906f-283b11bce7e8")
+		)
+		(pin "2"
+			(uuid "e337b988-5dba-47eb-8042-a963113ffb07")
+		)
+		(pin "4"
+			(uuid "b8d345d8-1aee-448c-b515-0f590da3fe4d")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/289b4a08-3aa5-4097-b614-bd37949d95c7"
+					(reference "RN2")
 					(unit 1)
 				)
 			)

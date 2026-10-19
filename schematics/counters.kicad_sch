@@ -20531,7 +20531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "bvclock:TO-92_HandSolder"
 			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)

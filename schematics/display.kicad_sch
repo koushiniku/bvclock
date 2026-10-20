@@ -9137,7 +9137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "bvclock:LED_D5.0mm"
 			(at 80.01 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -9832,7 +9832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "bvclock:LED_D5.0mm"
 			(at 67.31 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13804,7 +13804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "bvclock:LED_D5.0mm"
 			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -14550,7 +14550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "bvclock:LED_D5.0mm"
 			(at 73.66 231.14 0)
 			(hide yes)
 			(show_name no)

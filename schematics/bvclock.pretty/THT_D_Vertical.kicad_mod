@@ -7,7 +7,7 @@
 		(at 0 -1.778 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8c4be83b-f1ed-4e7b-91a0-b80265f653d6")
+		(uuid "798fc39a-b18e-4341-8575-afb84ca148a6")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "23068a7f-3810-412c-a53d-d33d56312855")
+		(uuid "1e733ae7-8455-4036-be83-199d7ffd85cf")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7e3d71ae-fb34-4c5c-b664-ba674ed5d5d0")
+		(uuid "bb0aded7-c21d-4615-9091-7b7fa6a0e5e2")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3a7df9c7-fc33-49c0-84cc-0c71d5ae9fdf")
+		(uuid "113b2be6-dedc-47a0-9f4b-209e0d27c858")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -2.15 -0.85)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f3a57486-b28a-4e16-aea5-ca47e3361741")
+		(uuid "cec6025f-f7fb-4d88-830f-fcefe4e59fba")
 	)
 	(fp_circle
 		(center 1.27 0)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "96e01f8b-44a7-44b7-830a-c10133a8422d")
+		(uuid "8b6fdc89-7037-4488-9a1b-8a2a1f452d65")
 	)
 	(fp_rect
 		(start -2.15 -0.85)
@@ -86,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3cbee26f-afea-4986-8e76-29084275c390")
+		(uuid "353ecc4b-790c-4793-8cdf-f9516ce1c642")
 	)
 	(fp_text user "K"
 		(at -2.794 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "96be44e9-f030-41de-b57d-cc2067be97aa")
+		(uuid "5dfa5839-a842-4aec-8a17-165be0a5078e")
 		(effects
 			(font
 				(size 1 1)
@@ -104,7 +104,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "503a2570-3aaf-46a8-a5a8-ebd8f61eadc4")
+		(uuid "caa83485-e16f-4804-83b2-2481f1b0403b")
 		(effects
 			(font
 				(size 1 1)
@@ -119,7 +119,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1968503937)
-		(uuid "cb22d990-4d96-4e92-83c9-aec36a4b2cbc")
+		(uuid "a22c5838-5d54-41d0-8715-24119fb0e16c")
 	)
 	(pad "2" thru_hole circle
 		(at 1.27 0)
@@ -127,7 +127,18 @@
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "88807c0e-474e-4ac8-b7fc-49529c915f43")
+		(uuid "2c8bc5bc-e059-4405-94ca-3780385e3add")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P2.54mm_Vertical_CathodeUp.step"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

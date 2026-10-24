@@ -7,7 +7,7 @@
 		(at 0 -1.651 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ff6375ac-c2cb-4a8d-ae35-e0dc8fb5fcff")
+		(uuid "c1956998-98ee-4cdf-a494-5aed09eefce0")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "deb7c49d-b728-4116-b4e3-4272fc17e716")
+		(uuid "e2a44fc0-823c-4e32-9c8b-ac1fb5f714b1")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bd4d0a1a-4369-43c2-b8eb-a3e89b55c99a")
+		(uuid "90a85dec-840e-4db8-8098-b3567dc737fe")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a2fdcc0-68ef-4043-bc12-b0682e451d0f")
+		(uuid "216bb655-32e8-4650-bed6-328aae731f6b")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -2.15 -0.85)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4d7cd35d-f012-4fe1-aa96-343f8ecd8148")
+		(uuid "59532101-d238-4c4a-a876-a183e034519e")
 	)
 	(fp_circle
 		(center -1.27 0)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "64ad5a96-8cd6-469e-ae03-fcb4d75e3677")
+		(uuid "e0e94c1d-af8d-416f-8f19-327b2d1bf3d3")
 	)
 	(fp_rect
 		(start -2.15 -0.85)
@@ -86,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6e8d4ccb-1c61-42f2-8580-6cc74f16f473")
+		(uuid "9b510881-983f-4dda-825b-c8f1c861c9b0")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d607a5b3-0cb9-451f-b8ef-2a26ce61466f")
+		(uuid "c70cc605-c804-4467-99b8-dcbc8b164c30")
 		(effects
 			(font
 				(size 1 1)
@@ -106,7 +106,7 @@
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2a4c01d7-fb49-41ed-b318-51984faa1b20")
+		(uuid "f4095867-f88c-4622-b991-2d05d15bdb95")
 	)
 	(pad "2" thru_hole circle
 		(at 1.27 0)
@@ -114,7 +114,18 @@
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8a54b00c-92d1-4864-bd85-10c350b1cba4")
+		(uuid "05b8a74e-a79f-484e-96a8-49cf70c2b3bc")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

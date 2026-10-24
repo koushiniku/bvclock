@@ -2663,6 +2663,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4250,9 +4373,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -4260,7 +4387,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4269,8 +4396,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4301,7 +4428,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4323,7 +4450,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4334,9 +4461,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -4344,6 +4471,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5719,7 +5866,7 @@
 	)
 	(text "60Hz"
 		(exclude_from_sim no)
-		(at 124.46 43.18 0)
+		(at 124.46 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5763,10 +5910,16 @@
 		(uuid "06bfa786-3e23-424d-8c86-f335bc1e9a58")
 	)
 	(junction
-		(at 110.49 59.69)
+		(at 96.52 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d9a4600-43b6-4a1f-9d83-5fbf4e9cafaf")
+		(uuid "0e77d45a-9754-48a9-b7d7-a6dede3f8c44")
+	)
+	(junction
+		(at 151.13 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2fc882-242b-48a3-b35f-ceca99c002c5")
 	)
 	(junction
 		(at 101.6 80.01)
@@ -5787,6 +5940,12 @@
 		(uuid "2add3a28-1a39-413e-a809-23f2de40e3b6")
 	)
 	(junction
+		(at 119.38 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af4a0f8-29d8-4d24-86cb-4cfd92b6ad8c")
+	)
+	(junction
 		(at 153.67 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5797,6 +5956,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c9cf528-3d78-452b-b5da-1793ec7d5065")
+	)
+	(junction
+		(at 110.49 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445dca86-67ec-4979-885b-9011756cd7fb")
 	)
 	(junction
 		(at 163.83 121.92)
@@ -5835,7 +6000,7 @@
 		(uuid "6f68e8b6-323a-4606-b168-864b559dc80a")
 	)
 	(junction
-		(at 101.6 44.45)
+		(at 101.6 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85390b6a-cca8-46f8-8919-6a4c47068e59")
@@ -5907,10 +6072,28 @@
 		(uuid "b5ef9b19-9a39-4a8c-be3e-bbea66a5abd0")
 	)
 	(junction
+		(at 111.76 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be63a6cb-0ca3-40dc-9930-a66a3477d293")
+	)
+	(junction
+		(at 73.66 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1e0fc2a-c186-4253-ac00-fc4ca7c5d40a")
+	)
+	(junction
 		(at 83.82 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3ca4b7e-c9f5-42f3-be8c-51c522a3c1c6")
+	)
+	(junction
+		(at 109.22 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c493650b-d57a-4dd0-9e46-19104b8db4d0")
 	)
 	(junction
 		(at 82.55 52.07)
@@ -5923,6 +6106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9276149-bf60-4978-be6a-d0e0c467981a")
+	)
+	(junction
+		(at 50.8 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc675b71-b11e-4e16-a62e-f4eff58a0f4a")
 	)
 	(junction
 		(at 215.9 121.92)
@@ -5967,6 +6156,10 @@
 		(uuid "f82c07bd-e63b-49c1-ab73-5e10f7fab5f8")
 	)
 	(no_connect
+		(at 41.91 182.88)
+		(uuid "5e6a7917-41a2-44ea-bc12-97a78c22fc4c")
+	)
+	(no_connect
 		(at 83.82 129.54)
 		(uuid "82aa4ddb-f6c3-41d6-b800-62134a4ea109")
 	)
@@ -5993,16 +6186,6 @@
 			(type default)
 		)
 		(uuid "07cd36a5-983f-4820-a3a0-c4854a10781a")
-	)
-	(wire
-		(pts
-			(xy 101.6 59.69) (xy 107.95 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "140aef3e-ac4a-414e-9431-46affdf9ff72")
 	)
 	(wire
 		(pts
@@ -6116,6 +6299,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 198.12) (xy 96.52 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bbbc9f-62b9-4f3d-9ff7-5e7aafccf715")
+	)
+	(wire
+		(pts
 			(xy 148.59 59.69) (xy 148.59 72.39)
 		)
 		(stroke
@@ -6136,6 +6329,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 198.12) (xy 73.66 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5ee84e-b845-452e-9f72-320897328394")
+	)
+	(wire
+		(pts
+			(xy 41.91 198.12) (xy 50.8 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629ac961-4ae7-44e9-93bf-d957b1453aec")
+	)
+	(wire
+		(pts
 			(xy 142.24 191.77) (xy 142.24 198.12)
 		)
 		(stroke
@@ -6143,6 +6356,16 @@
 			(type default)
 		)
 		(uuid "6f2fc237-9f13-477a-969c-ed8f8604a76e")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d21886-8c8f-4ab4-a62d-6c7f690b6a50")
 	)
 	(wire
 		(pts
@@ -6226,16 +6449,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 59.69) (xy 107.95 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fb13c0d-b363-45d5-b19c-9f6ead73d0c3")
-	)
-	(wire
-		(pts
 			(xy 119.38 118.11) (xy 119.38 121.92)
 		)
 		(stroke
@@ -6246,6 +6459,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 52.07) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d9cb93-3a2a-4a0d-8f0d-53ba368026de")
+	)
+	(wire
+		(pts
 			(xy 171.45 121.92) (xy 171.45 125.73)
 		)
 		(stroke
@@ -6253,6 +6476,26 @@
 			(type default)
 		)
 		(uuid "9762a752-62f3-40d2-8c5e-94affaccb481")
+	)
+	(wire
+		(pts
+			(xy 96.52 198.12) (xy 119.38 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996709e2-e063-4d16-828f-9001d2a0f411")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b51886a-70af-48c6-80e1-83d13b306612")
 	)
 	(wire
 		(pts
@@ -6296,7 +6539,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 111.76 80.01)
+			(xy 151.13 64.77) (xy 156.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ff13c7-d8f7-4260-8a20-ff66b9a3d182")
+	)
+	(wire
+		(pts
+			(xy 107.95 80.01) (xy 110.49 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6346,6 +6599,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 198.12) (xy 142.24 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c274e9a6-71ab-4e4f-b0c0-dcc6f58f9e84")
+	)
+	(wire
+		(pts
 			(xy 80.01 57.15) (xy 80.01 67.31)
 		)
 		(stroke
@@ -6386,7 +6649,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 44.45) (xy 124.46 44.45)
+			(xy 123.19 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6426,6 +6689,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 80.01) (xy 111.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ecb0f5-f19e-4c0f-949b-5385c2c79eda")
+	)
+	(wire
+		(pts
 			(xy 111.76 64.77) (xy 111.76 80.01)
 		)
 		(stroke
@@ -6436,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 44.45) (xy 107.95 44.45)
+			(xy 101.6 33.02) (xy 107.95 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6476,7 +6749,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 93.98 44.45)
+			(xy 93.98 52.07) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6513,16 +6786,6 @@
 			(type default)
 		)
 		(uuid "f6638ceb-64d3-4c20-af5e-f4158f2f8ecf")
-	)
-	(wire
-		(pts
-			(xy 111.76 59.69) (xy 110.49 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f68ecf77-ac48-45ca-ab1f-a83006f0c1d0")
 	)
 	(wire
 		(pts
@@ -6608,7 +6871,7 @@
 	)
 	(global_label "REFCLK"
 		(shape output)
-		(at 124.46 44.45 0)
+		(at 124.46 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6618,7 +6881,7 @@
 		)
 		(uuid "7002ed8e-c10a-448b-a9c3-4c3652098189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.5209 44.45 0)
+			(at 134.5209 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +7022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470N"
+		(property "Value" "470n"
 			(at 127 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,7 +7083,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 101.6 48.26 270)
+		(at 101.6 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6830,7 +7093,7 @@
 		(dnp no)
 		(uuid "03f6fc8c-fa9f-4b89-a4fe-9c5e6e7510c4")
 		(property "Reference" "D3"
-			(at 102.87 46.99 90)
+			(at 102.87 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6841,7 +7104,7 @@
 			)
 		)
 		(property "Value" "BAT43"
-			(at 102.87 49.53 90)
+			(at 102.87 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6852,7 +7115,7 @@
 			)
 		)
 		(property "Footprint" "bvclock:THT_D_Vertical"
-			(at 101.6 48.26 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +7126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 48.26 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6874,7 +7137,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 101.6 48.26 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +7184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 83.82 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,19 +7252,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 50.8 177.8 0)
+		(lib_id "Connector:TestPoint")
+		(at 110.49 80.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "094de5f5-43f3-4b99-b0db-a5bb569340cd")
-		(property "Reference" "H1"
-			(at 53.34 176.5299 0)
+		(uuid "0d57f7fe-0be2-48ba-bb42-eff5cd6a078b")
+		(property "Reference" "TP2"
+			(at 109.22 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7011,8 +7273,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 53.34 179.0699 0)
+		(property "Value" "TestPoint"
+			(at 109.22 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7022,8 +7284,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 50.8 177.8 0)
+		(property "Footprint" "bvclock:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7034,7 +7296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 177.8 0)
+			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7044,8 +7306,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 50.8 177.8 0)
+		(property "Description" "test point"
+			(at 110.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,11 +7316,171 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "5d092c0e-eacc-4742-997e-d75a5d1bec9e")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "H1")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 96.52 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d662b21-01dd-45f2-bffb-8d61ee61b001")
+		(property "Reference" "H3"
+			(at 99.06 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 99.06 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+			(at 96.52 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 96.52 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40595549-332a-4fc0-9897-87e28fd68a99")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dcc428d-cb94-4dbb-a575-9f3626be8b9e")
+		(property "Reference" "TP3"
+			(at 157.48 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 157.48 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bvclock:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 161.29 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddaec29a-4462-4b7e-a216-f6b5a79e154b")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5K6"
+		(property "Value" "5k6"
 			(at 151.13 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7167,7 +7589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 163.83 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7235,6 +7657,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20baafc1-682c-467c-a387-9eac1c505666")
+		(property "Reference" "TP1"
+			(at 113.03 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bvclock:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "865fa5a3-4487-4845-b1ed-e3f9fe62cdef")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 107.95 68.58 0)
 		(mirror y)
@@ -7257,7 +7757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100U"
+		(property "Value" "100u"
 			(at 107.95 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 119.38 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,7 +7926,7 @@
 				)
 			)
 		)
-		(property "Value" "100U"
+		(property "Value" "100u"
 			(at 140.97 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +8006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 208.28 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7883,8 +8383,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 125.73 90)
-		(mirror x)
+		(at 123.19 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7903,7 +8402,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 123.19 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7962,8 +8461,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 50.8 193.04 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7972,9 +8471,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35bc07c5-e034-46b9-8c87-e7e9faa9b16e")
-		(property "Reference" "H4"
-			(at 53.34 191.7699 0)
+		(uuid "3b426967-aa33-46c0-a7f6-7f3a1e769f0a")
+		(property "Reference" "H1"
+			(at 53.34 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7984,8 +8483,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 53.34 194.3099 0)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7995,8 +8494,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 50.8 193.04 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+			(at 50.8 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8007,7 +8506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 193.04 0)
+			(at 50.8 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8017,8 +8516,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 50.8 193.04 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8027,11 +8526,14 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "3dbd3c88-fe82-44ea-83ba-7a9e942b11bb")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8039,8 +8541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 125.73 90)
-		(mirror x)
+		(at 167.64 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8059,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 167.64 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8113,6 +8614,122 @@
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "R5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74HC14_6")
+		(lib_id "74xx:74HC14")
+		(at 41.91 190.5 90)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40a96654-fb71-4034-90ae-ea6ebfe031ab")
+		(property "Reference" "U1"
+			(at 35.56 189.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 35.56 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 41.91 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 41.91 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 41.91 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "fafa1a1a-b1f0-4c87-b773-9b4d29f914d8")
+		)
+		(pin "12"
+			(uuid "a7540f3c-4ce2-458e-9429-16f25c903f10")
+		)
+		(pin "13"
+			(uuid "292bb574-1221-4ac2-91ad-4f6274f394bd")
+		)
+		(pin "4"
+			(uuid "976749d7-c8ad-40cb-9073-c8a914ffd7e7")
+		)
+		(pin "14"
+			(uuid "22c1f917-98c3-4d1b-8a48-05e71662be47")
+		)
+		(pin "7"
+			(uuid "7f5b8b42-e743-443e-8651-1aeb802d4907")
+		)
+		(pin "9"
+			(uuid "71499b5a-5d05-4ad1-b9a9-37bc68e6e602")
+		)
+		(pin "6"
+			(uuid "bb97995d-f8ee-424d-9246-3094fac47b6c")
+		)
+		(pin "10"
+			(uuid "b7ad4af6-f046-4cdb-99dc-64edefe9bea6")
+		)
+		(pin "11"
+			(uuid "b399c8d1-3d0c-4f06-819b-d59c89d111c8")
+		)
+		(pin "1"
+			(uuid "72e53285-4944-4ebf-b6e6-4a62b0d161f1")
+		)
+		(pin "3"
+			(uuid "20f33d89-ee46-486d-a1c2-80294c32e467")
+		)
+		(pin "2"
+			(uuid "cb33d484-24e5-49b4-b8e2-385c3cc6dd90")
+		)
+		(pin "8"
+			(uuid "18e3e7e2-bb54-4657-a4c4-57cdfda19998")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -8219,6 +8836,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42322ce8-0557-47ad-b31f-6b8a2b7d58ad")
+		(property "Reference" "TP4"
+			(at 149.86 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bvclock:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 146.05 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b24874b-4729-4969-bc60-68dfd9d278d2")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 133.35 0)
 		(unit 1)
@@ -8318,7 +9013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000U"
+		(property "Value" "1m0"
 			(at 144.78 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8509,7 +9204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+		(property "Footprint" "bvclock:BarrelJack_Horizontal"
 			(at 73.66 55.626 0)
 			(hide yes)
 			(show_name no)
@@ -8660,7 +9355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25V 4700U"
+		(property "Value" "25V 4m7"
 			(at 101.6 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VP"
+		(property "Value" "VOUT"
 			(at 138.43 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9270,7 +9965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 142.24 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9330,84 +10025,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 50.8 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b8ecc7e-a47e-4f97-8c71-194a3c544f3e")
-		(property "Reference" "H2"
-			(at 53.34 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 53.34 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 50.8 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 50.8 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 97.79 44.45 270)
+		(at 97.79 33.02 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9418,7 +10037,7 @@
 		(dnp no)
 		(uuid "869dafb9-2089-42c6-95c4-36edecdd82cb")
 		(property "Reference" "R1"
-			(at 97.79 41.91 90)
+			(at 97.79 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9427,8 +10046,8 @@
 				)
 			)
 		)
-		(property "Value" "47K"
-			(at 97.79 44.45 90)
+		(property "Value" "47k"
+			(at 97.79 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9438,7 +10057,7 @@
 			)
 		)
 		(property "Footprint" "bvclock:THT_R_Vertical"
-			(at 97.79 46.228 90)
+			(at 97.79 34.798 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9449,7 +10068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 44.45 0)
+			(at 97.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9460,7 +10079,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 44.45 0)
+			(at 97.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9488,7 +10107,7 @@
 	(symbol
 		(lib_name "74HC14_1")
 		(lib_id "74xx:74HC14")
-		(at 115.57 44.45 0)
+		(at 115.57 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9498,7 +10117,7 @@
 		(dnp no)
 		(uuid "903d9a26-6444-4368-82a1-2ee41a79ddc8")
 		(property "Reference" "U1"
-			(at 115.57 36.83 0)
+			(at 115.57 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9508,7 +10127,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 115.57 39.37 0)
+			(at 115.57 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9518,7 +10137,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 115.57 44.45 0)
+			(at 115.57 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9529,7 +10148,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 115.57 44.45 0)
+			(at 115.57 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,7 +10159,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 115.57 44.45 0)
+			(at 115.57 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +10222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 52.07 0)
+		(at 101.6 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9613,7 +10232,7 @@
 		(dnp no)
 		(uuid "9c108c3f-9732-45dc-b9d0-310a488ebfbf")
 		(property "Reference" "#PWR07"
-			(at 101.6 58.42 0)
+			(at 101.6 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9624,7 +10243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 55.88 0)
+			(at 101.6 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9634,7 +10253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 52.07 0)
+			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,7 +10264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 52.07 0)
+			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9656,7 +10275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 52.07 0)
+			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9711,7 +10330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P3.81mm_Vertical_CathodeUp"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9838,7 +10457,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 110.49 59.69 0)
+		(at 109.22 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9848,7 +10467,7 @@
 		(dnp no)
 		(uuid "a0740dc9-53f6-4552-b7c3-68b069fc832b")
 		(property "Reference" "#PWR09"
-			(at 110.49 63.5 0)
+			(at 109.22 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,8 +10477,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 110.49 55.88 0)
+		(property "Value" "VIN"
+			(at 109.22 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9869,7 +10488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 59.69 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +10499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 59.69 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9891,7 +10510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 110.49 59.69 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10271,8 +10890,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 125.73 90)
-		(mirror x)
+		(at 212.09 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10291,7 +10909,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 212.09 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10428,7 +11046,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 101.6 36.83 0)
+		(at 101.6 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10438,7 +11056,7 @@
 		(dnp no)
 		(uuid "bfbdee66-0cc0-4cd0-8c45-5fd9d57f4259")
 		(property "Reference" "#PWR06"
-			(at 101.6 40.64 0)
+			(at 101.6 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10449,7 +11067,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 101.6 33.02 0)
+			(at 101.6 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10459,7 +11077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 36.83 0)
+			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,7 +11088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 36.83 0)
+			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10481,7 +11099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 36.83 0)
+			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10525,7 +11143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470N"
+		(property "Value" "470n"
 			(at 171.45 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,82 +11354,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 50.8 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c919dfe6-959d-4092-8555-617b635c4142")
-		(property "Reference" "H3"
-			(at 53.34 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 53.34 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 50.8 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 50.8 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11045,7 +11587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470N"
+		(property "Value" "470n"
 			(at 215.9 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11243,7 +11785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "3k3"
 			(at 151.13 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +11845,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 101.6 40.64 270)
+		(at 101.6 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11313,7 +11855,7 @@
 		(dnp no)
 		(uuid "e8cab920-a882-4d4f-8d29-818c499901fd")
 		(property "Reference" "D2"
-			(at 102.87 39.37 90)
+			(at 102.87 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11324,7 +11866,7 @@
 			)
 		)
 		(property "Value" "BAT43"
-			(at 102.87 41.91 90)
+			(at 102.87 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11335,7 +11877,7 @@
 			)
 		)
 		(property "Footprint" "bvclock:THT_D_Vertical"
-			(at 101.6 40.64 0)
+			(at 101.6 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11346,7 +11888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 40.64 0)
+			(at 101.6 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +11899,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 101.6 40.64 0)
+			(at 101.6 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11531,6 +12073,164 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 73.66 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb20977a-7335-41ea-b2de-30af4616ae4a")
+		(property "Reference" "H2"
+			(at 76.2 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 76.2 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+			(at 73.66 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0768f2cf-e56d-4aee-98fb-efcc6591df9a")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe17c46-1db6-49ff-81ba-7550065b8815")
+		(property "Reference" "H4"
+			(at 121.92 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 121.92 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+			(at 119.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eb9a8c6-bd7d-4374-91bc-31b0ae9107ed")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "H4")
 					(unit 1)
 				)
 			)

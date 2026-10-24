@@ -8691,7 +8691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8939,7 +8939,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9990,7 +9990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 52.07 254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10520,7 +10520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 29.21 254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10757,7 +10757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 59.69 254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +10837,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 218.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11007,7 +11007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11894,7 +11894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 36.83 254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12240,7 +12240,7 @@
 				)
 			)
 		)
-		(property "Value" "6K8"
+		(property "Value" "6k8"
 			(at 22.86 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12320,7 +12320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 67.31 254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12681,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13023,7 +13023,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13114,7 +13114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -13220,7 +13220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13621,7 +13621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14151,7 +14151,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14321,7 +14321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14642,7 +14642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 175.26 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15013,7 +15013,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +15102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+		(property "Footprint" "bvclock:7SegmentLED_LTS6760_LTS6780"
 			(at 53.34 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -15689,7 +15689,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "47R"
 			(at 146.05 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16094,7 +16094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 44.45 254 0)
 			(show_name no)
 			(do_not_autoplace no)

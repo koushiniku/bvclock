@@ -9872,7 +9872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 96.52 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,7 +10071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 96.52 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10454,7 +10454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 104.14 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +10535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 123.19 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11384,7 +11384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 81.28 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11768,7 +11768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 88.9 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11849,7 +11849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 119.38 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +11930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 105.41 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12019,7 +12019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 87.63 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14292,7 +14292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100N"
+		(property "Value" "100n"
 			(at 111.76 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15315,7 +15315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4k7"
 			(at 114.3 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)

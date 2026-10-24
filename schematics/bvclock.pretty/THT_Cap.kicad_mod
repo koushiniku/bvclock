@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "512a96b6-82ff-4ea2-8ef5-3b575ce0aeef")
+		(uuid "ca7a1fa0-3d37-490c-8416-8974f538994e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ed0d8d6f-7a42-46c7-8fde-a468767913b1")
+		(uuid "0de7b020-bcec-4860-89ae-8e8b3f48024d")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c45dec31-8248-43e3-8bd0-f1239a89ddce")
+		(uuid "20d197d9-6ff9-45ac-8b7a-f97eef3baebd")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bc7e694-ed38-41be-b43a-5836d935814a")
+		(uuid "c5dc5c61-d024-4931-8e66-335ab780a011")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -3.4 -0.85)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "adc6347b-5f5a-44bb-a95d-c18517e675b7")
+		(uuid "1a5c9ec6-e5ed-4576-a871-90e866e081c6")
 	)
 	(fp_rect
 		(start -3.4 -0.85)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "735aef42-dd34-4347-a93e-e6490a0f0edb")
+		(uuid "64758e95-9b1c-4ef6-98c6-66a32813939e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a00c65f4-4d74-4275-b07d-37205f0ce01e")
+		(uuid "45aff4ce-1ed9-4e93-becb-4ffa0d8ce735")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +96,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "d6e33333-4806-450f-8316-a26cb671580a")
+		(uuid "86ca60fc-0d0f-4af0-8326-4bb95b9f4476")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -104,7 +104,18 @@
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0ea2c602-391c-49ae-8069-b1566d9f7210")
+		(uuid "8739b9b4-60f9-445a-972d-b5dd6d46acb9")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.1mm_W3.2mm_P5.00mm.step"
+		(offset
+			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -3602,204 +3602,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Network04_Split"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Network04_Split"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP5"
-				(at -2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4 resistor network, star topology, bussed resistors, split"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R network star-topology"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R?Array?SIP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_2_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_3_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_4_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -5888,7 +5690,7 @@
 	)
 	(text "12/24\nselect"
 		(exclude_from_sim no)
-		(at 85.09 123.19 0)
+		(at 88.9 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6084,12 +5886,6 @@
 		(uuid "c1e0fc2a-c186-4253-ac00-fc4ca7c5d40a")
 	)
 	(junction
-		(at 83.82 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3ca4b7e-c9f5-42f3-be8c-51c522a3c1c6")
-	)
-	(junction
 		(at 109.22 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6158,10 +5954,6 @@
 	(no_connect
 		(at 41.91 182.88)
 		(uuid "5e6a7917-41a2-44ea-bc12-97a78c22fc4c")
-	)
-	(no_connect
-		(at 83.82 129.54)
-		(uuid "82aa4ddb-f6c3-41d6-b800-62134a4ea109")
 	)
 	(no_connect
 		(at 80.01 54.61)
@@ -6379,6 +6171,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 124.46) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80501121-bf4c-4e5e-86ef-1d881ed37a00")
+	)
+	(wire
+		(pts
 			(xy 101.6 80.01) (xy 107.95 80.01)
 		)
 		(stroke
@@ -6396,16 +6198,6 @@
 			(type default)
 		)
 		(uuid "863030fe-c739-4ce7-a59a-3bcd07cedd27")
-	)
-	(wire
-		(pts
-			(xy 83.82 119.38) (xy 83.82 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87823179-911e-4a00-a9ad-16e926929edf")
 	)
 	(wire
 		(pts
@@ -6496,16 +6288,6 @@
 			(type default)
 		)
 		(uuid "9b51886a-70af-48c6-80e1-83d13b306612")
-	)
-	(wire
-		(pts
-			(xy 73.66 127) (xy 73.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f83205c-deef-4516-a0a7-dee8d937c938")
 	)
 	(wire
 		(pts
@@ -6719,6 +6501,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 129.54) (xy 77.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea267e07-30ea-431d-8bf4-71e0e2153ee0")
+	)
+	(wire
+		(pts
 			(xy 153.67 133.35) (xy 171.45 133.35)
 		)
 		(stroke
@@ -6759,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 124.46) (xy 83.82 124.46)
+			(xy 88.9 127) (xy 87.63 127)
 		)
 		(stroke
 			(width 0)
@@ -6895,7 +6687,7 @@
 	)
 	(global_label "TW"
 		(shape output)
-		(at 85.09 124.46 0)
+		(at 88.9 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6905,7 +6697,7 @@
 		)
 		(uuid "e7ae6585-2c4e-44eb-8d91-75ca9aea4f90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6858 124.46 0)
+			(at 83.4958 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6919,7 +6711,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 78.74 127 0)
+		(at 82.55 127 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6927,10 +6720,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02f3dd63-5900-430a-ae01-7f2a7a2aa890")
 		(property "Reference" "SW1"
-			(at 78.74 118.11 0)
+			(at 82.55 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6940,7 +6732,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 78.74 120.65 0)
+			(at 82.55 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6950,7 +6742,7 @@
 			)
 		)
 		(property "Footprint" "bvclock:SW_Slide_SPDT"
-			(at 78.74 127 0)
+			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,7 +6753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 134.62 0)
+			(at 82.55 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +6764,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 78.74 127 0)
+			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,95 +6949,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 83.82 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "075fd34a-9926-404e-b97d-ab04e0394c42")
-		(property "Reference" "RN1"
-			(at 85.09 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 83.82 115.57 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 81.788 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 83.82 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 83.82 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8088e200-f702-48e8-b41a-be4439d18577")
-		)
-		(pin "2"
-			(uuid "71953620-98c4-4ad0-abe2-edfe44f0b2ea")
-		)
-		(pin "5"
-			(uuid "75809e23-bc22-46fb-89f9-fe66100056d8")
-		)
-		(pin "4"
-			(uuid "97072d08-5ed5-412f-8e97-55fd76e10ed2")
-		)
-		(pin "3"
-			(uuid "af0d112d-bd7a-45c8-9a92-ccd8e44e1b5b")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -7568,18 +7271,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 163.83 114.3 0)
-		(unit 3)
+		(lib_id "Device:R")
+		(at 208.28 114.3 0)
+		(mirror y)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c19a4b6-ae2c-4242-93c3-3b4163cd4468")
-		(property "Reference" "RN1"
-			(at 165.1 114.3 0)
+		(uuid "1c5867cc-4637-4c43-95e9-e975e3ad63e2")
+		(property "Reference" "R17"
+			(at 207.01 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7589,8 +7293,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
-			(at 163.83 114.3 90)
+		(property "Value" "47k"
+			(at 208.28 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7599,8 +7303,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 161.798 114.3 90)
+		(property "Footprint" "bvclock:THT_R_Vertical"
+			(at 210.058 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,8 +7314,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 163.83 114.3 0)
+		(property "Datasheet" ""
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7621,8 +7325,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 163.83 114.3 0)
+		(property "Description" "Resistor"
+			(at 208.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,25 +7337,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "8088e200-f702-48e8-b41a-be4439d18578")
+			(uuid "4288bef6-1c7c-4582-8358-f43c66069c77")
 		)
 		(pin "2"
-			(uuid "71953620-98c4-4ad0-abe2-edfe44f0b2eb")
-		)
-		(pin "5"
-			(uuid "75809e23-bc22-46fb-89f9-fe66100056d9")
-		)
-		(pin "4"
-			(uuid "97072d08-5ed5-412f-8e97-55fd76e10ed3")
-		)
-		(pin "3"
-			(uuid "af0d112d-bd7a-45c8-9a92-ccd8e44e1b5c")
+			(uuid "c174b509-bf03-4437-abff-3effca299cfa")
 		)
 		(instances
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "RN1")
-					(unit 3)
+					(reference "R17")
+					(unit 1)
 				)
 			)
 		)
@@ -7817,95 +7512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 119.38 114.3 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "223b13d0-64d5-47ee-9793-ad685e749e29")
-		(property "Reference" "RN1"
-			(at 120.65 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 119.38 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 117.348 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 119.38 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 119.38 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8088e200-f702-48e8-b41a-be4439d18579")
-		)
-		(pin "2"
-			(uuid "71953620-98c4-4ad0-abe2-edfe44f0b2ec")
-		)
-		(pin "5"
-			(uuid "75809e23-bc22-46fb-89f9-fe66100056da")
-		)
-		(pin "4"
-			(uuid "97072d08-5ed5-412f-8e97-55fd76e10ed4")
-		)
-		(pin "3"
-			(uuid "af0d112d-bd7a-45c8-9a92-ccd8e44e1b5d")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "RN1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 140.97 64.77 90)
 		(unit 1)
@@ -7980,95 +7586,6 @@
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "L1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 208.28 114.3 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25c62903-6bc7-494a-ba5a-462c67cc6852")
-		(property "Reference" "RN1"
-			(at 209.55 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 208.28 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 206.248 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 208.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 208.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8088e200-f702-48e8-b41a-be4439d1857a")
-		)
-		(pin "2"
-			(uuid "71953620-98c4-4ad0-abe2-edfe44f0b2ed")
-		)
-		(pin "5"
-			(uuid "75809e23-bc22-46fb-89f9-fe66100056db")
-		)
-		(pin "4"
-			(uuid "97072d08-5ed5-412f-8e97-55fd76e10ed5")
-		)
-		(pin "3"
-			(uuid "af0d112d-bd7a-45c8-9a92-ccd8e44e1b5e")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "RN1")
-					(unit 2)
 				)
 			)
 		)
@@ -9492,6 +9009,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 114.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62ea5227-9b74-4df9-a4a0-c1293e88a6b5")
+		(property "Reference" "R16"
+			(at 162.56 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 163.83 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bvclock:THT_R_Vertical"
+			(at 165.608 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f55077ea-e51f-4cc2-b75a-f80572755eaf")
+		)
+		(pin "2"
+			(uuid "d0d4c6de-d8dc-4194-9439-79a5b5a2c107")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
 		(at 151.13 187.96 0)
 		(unit 7)
@@ -9860,6 +9458,87 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 114.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7154198e-9e0a-453b-be6a-85c395ddf2d6")
+		(property "Reference" "R15"
+			(at 118.11 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 119.38 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bvclock:THT_R_Vertical"
+			(at 121.158 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4058f4bd-9e26-4c63-be13-6b1a9047b9d1")
+		)
+		(pin "2"
+			(uuid "e6d36aab-6841-4888-af68-c5823a7d58d4")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10786,6 +10465,7 @@
 		(uuid "aeb0b7c3-3597-4543-acd4-6a2088778db0")
 		(property "Reference" "U1"
 			(at 137.16 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11204,7 +10884,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 130.81 0)
+		(at 74.93 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11214,7 +10894,7 @@
 		(dnp no)
 		(uuid "c61b0ee7-bffc-4183-89e3-99d875b354df")
 		(property "Reference" "#PWR01"
-			(at 73.66 137.16 0)
+			(at 74.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11225,7 +10905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 134.62 0)
+			(at 74.93 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11235,7 +10915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 130.81 0)
+			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11246,7 +10926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 130.81 0)
+			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11257,7 +10937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 130.81 0)
+			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11506,7 +11186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerEven_Lead3.8mm_Vertical"
+		(property "Footprint" "bvclock:TO-220-5_Vertical_HandSolder"
 			(at 124.46 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11660,6 +11340,7 @@
 		(uuid "e0905159-bb2a-41aa-a6a7-66aee2421bf5")
 		(property "Reference" "U1"
 			(at 181.61 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12003,7 +11684,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 111.76 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12013,7 +11694,7 @@
 		(dnp no)
 		(uuid "f73ff5de-2a52-480c-ae35-34b2a0cbd864")
 		(property "Reference" "#PWR04"
-			(at 83.82 115.57 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12024,7 +11705,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 83.82 107.95 0)
+			(at 74.93 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12034,7 +11715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 111.76 0)
+			(at 74.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +11726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 111.76 0)
+			(at 74.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12056,7 +11737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 111.76 0)
+			(at 74.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

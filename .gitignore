@@ -42,5 +42,9 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
+*.gbr
+*.gbrjob
+*.drl
+
 # PLD JEDEC files
 *.jed

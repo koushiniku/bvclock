@@ -3092,9 +3092,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "240mA"
+	(text "60-240mA\nV_{CE}(sat) = 30-250mV"
 		(exclude_from_sim no)
-		(at 142.24 109.22 0)
+		(at 135.89 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3122,9 +3122,9 @@
 		)
 		(uuid "7a09df1e-8d83-462c-92e8-e53031d04453")
 	)
-	(text "30mA"
+	(text "30mA\nV_{CE}(sat) = 15mV"
 		(exclude_from_sim no)
-		(at 146.05 144.78 0)
+		(at 134.62 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10677,7 +10677,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,7 +10916,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11471,7 +11471,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,7 +12081,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12141,8 +12141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 99.06 270)
-		(mirror x)
+		(at 163.83 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12400,7 +12399,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12478,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14072,7 +14071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "68R"
 			(at 77.47 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14229,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15768,7 +15767,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "100R"
 			(at 125.73 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)

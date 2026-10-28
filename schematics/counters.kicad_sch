@@ -9487,6 +9487,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -11178,6 +11355,12 @@
 		(uuid "214c50bb-b98e-48b2-a5f7-9d77fff66d8e")
 	)
 	(junction
+		(at 69.85 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "252eafc0-54d5-44f2-90ed-40f4574a0b97")
+	)
+	(junction
 		(at 129.54 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11470,6 +11653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bccf51ca-904f-44c3-99a5-4695c7a526b0")
+	)
+	(junction
+		(at 69.85 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08014ac-57e8-4f42-a7a4-a42bbe2fbfd2")
 	)
 	(junction
 		(at 184.15 128.27)
@@ -12334,6 +12523,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 198.12) (xy 69.85 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c58a0f6-7bf1-405d-8904-4a272212d808")
+	)
+	(wire
+		(pts
 			(xy 157.48 44.45) (xy 157.48 52.07)
 		)
 		(stroke
@@ -12941,6 +13140,16 @@
 			(type default)
 		)
 		(uuid "68fa5357-b685-44c1-8f38-664164fefcee")
+	)
+	(wire
+		(pts
+			(xy 63.5 190.5) (xy 69.85 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6a3e90-88eb-43bd-954d-4ec45087cfcd")
 	)
 	(wire
 		(pts
@@ -16953,7 +17162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "3k3"
 			(at 52.07 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19565,6 +19774,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 194.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8936847e-3665-4e43-b0d5-d798bd283286")
+		(property "Reference" "C42"
+			(at 63.5 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 63.5 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 62.5348 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1bd35a4c-1acf-4882-ad0c-cfb63f6656d4")
+		)
+		(pin "1"
+			(uuid "976bec65-a6d9-4b20-b8fc-86a67f6143cf")
+		)
+		(instances
+			(project "bvclock"
+				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 93.98 139.7 0)
 		(mirror x)
@@ -20931,7 +21222,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 110.49 0)
+		(at 44.45 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20941,7 +21232,7 @@
 		(dnp no)
 		(uuid "b6b9271d-0236-470d-87df-e1abd1927acf")
 		(property "Reference" "#PWR022"
-			(at 44.45 114.3 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20952,7 +21243,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 44.45 106.68 0)
+			(at 44.45 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20962,7 +21253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 110.49 0)
+			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20973,7 +21264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 110.49 0)
+			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20984,7 +21275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 110.49 0)
+			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22242,86 +22533,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 44.45 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f1240e3e-6c7c-4f87-a2e7-b6986ee17d52")
-		(property "Reference" "R11"
-			(at 43.18 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k5"
-			(at 44.45 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bvclock:THT_R_Vertical"
-			(at 46.228 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 44.45 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b588b8d-2cf4-4634-b5ef-fe61d5649dd7")
-		)
-		(pin "2"
-			(uuid "3f198d63-fa4e-4439-9ef0-534d2ac948ff")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/1e5cbbe7-ce51-4eb7-9339-265272a6e33a"
-					(reference "R11")
 					(unit 1)
 				)
 			)

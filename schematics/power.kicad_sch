@@ -5709,10 +5709,10 @@
 		(uuid "32230a79-6060-422b-aacb-61a4bfdd1edd")
 	)
 	(junction
-		(at 194.31 85.09)
+		(at 200.66 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4350b317-91a6-406c-81a5-b62da35cb639")
+		(uuid "366bc879-af52-4a13-9c69-55067d96f9fb")
 	)
 	(junction
 		(at 163.83 121.92)
@@ -5757,12 +5757,6 @@
 		(uuid "6ffdfeca-5858-4916-b1fd-108320caba6a")
 	)
 	(junction
-		(at 200.66 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7915a139-c22a-49cf-aff2-db7c740fc1f0")
-	)
-	(junction
 		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5773,12 +5767,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85390b6a-cca8-46f8-8919-6a4c47068e59")
-	)
-	(junction
-		(at 194.31 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87da5fe2-26b4-412d-a0a5-1c549f4f61f3")
 	)
 	(junction
 		(at 119.38 121.92)
@@ -5883,10 +5871,10 @@
 		(uuid "cc675b71-b11e-4e16-a62e-f4eff58a0f4a")
 	)
 	(junction
-		(at 200.66 69.85)
+		(at 200.66 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d13e8cdf-70dd-44b7-b835-3ce40696f615")
+		(uuid "ce817cb3-7475-4cd5-8074-c5fac27e36a3")
 	)
 	(junction
 		(at 215.9 121.92)
@@ -5911,12 +5899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f788c9a1-548c-4cf0-a5aa-10262bf29df9")
-	)
-	(junction
-		(at 207.01 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9fbe546-1f06-4eb7-9ca0-e36d117eeade")
 	)
 	(no_connect
 		(at 41.91 182.88)
@@ -5988,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 85.09) (xy 194.31 85.09)
+			(xy 186.69 85.09) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6005,16 +5987,6 @@
 			(type default)
 		)
 		(uuid "22f6ccf6-cd61-4824-9ea5-a52334eb5392")
-	)
-	(wire
-		(pts
-			(xy 207.01 74.93) (xy 207.01 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23359445-f90a-4230-88bd-2383b3d138c8")
 	)
 	(wire
 		(pts
@@ -6088,13 +6060,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 69.85) (xy 194.31 69.85)
+			(xy 187.96 69.85) (xy 200.66 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32d3e2df-a0d0-4f29-9b41-cc3a8192c6c8")
+	)
+	(wire
+		(pts
+			(xy 200.66 85.09) (xy 205.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339752fb-7992-470a-8955-c60377ba4391")
 	)
 	(wire
 		(pts
@@ -6148,16 +6130,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 85.09) (xy 200.66 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e0dbdbe-a690-4646-a398-d871e478f800")
-	)
-	(wire
-		(pts
 			(xy 73.66 198.12) (xy 96.52 198.12)
 		)
 		(stroke
@@ -6175,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "59000522-5b3d-4000-bd17-886eada1acdc")
+	)
+	(wire
+		(pts
+			(xy 200.66 69.85) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a641544-1b60-4c17-969d-c3215fd699b6")
 	)
 	(wire
 		(pts
@@ -6448,16 +6430,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 69.85) (xy 200.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a96141-5614-4fb5-a9be-cfb4117c55da")
-	)
-	(wire
-		(pts
 			(xy 173.99 121.92) (xy 171.45 121.92)
 		)
 		(stroke
@@ -6565,16 +6537,6 @@
 			(type default)
 		)
 		(uuid "daf7385d-b3dd-405c-96db-4c33c359d86e")
-	)
-	(wire
-		(pts
-			(xy 207.01 82.55) (xy 207.01 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc392677-6a47-4f55-a785-2d5cbf66a2cc")
 	)
 	(wire
 		(pts
@@ -6708,16 +6670,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 85.09) (xy 200.66 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda1add0-3d64-4f1c-86cf-a4a9ceaf1cd9")
-	)
-	(wire
-		(pts
 			(xy 109.22 59.69) (xy 123.19 59.69)
 		)
 		(stroke
@@ -6725,16 +6677,6 @@
 			(type default)
 		)
 		(uuid "ff13d845-8b1c-4d23-9f6d-53a6c0532557")
-	)
-	(wire
-		(pts
-			(xy 194.31 69.85) (xy 200.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff694afd-e43d-40c0-bf0e-0600ccf7cf7c")
 	)
 	(global_label "HADV"
 		(shape output)
@@ -8125,7 +8067,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 194.31 85.09 0)
+		(at 205.74 85.09 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8136,7 +8078,7 @@
 		(dnp no)
 		(uuid "3fa5793f-3dc2-4737-8ec2-56a8aececb29")
 		(property "Reference" "TP4"
-			(at 195.58 90.17 0)
+			(at 207.01 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8147,7 +8089,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.58 87.63 0)
+			(at 207.01 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8158,7 +8100,7 @@
 			)
 		)
 		(property "Footprint" "bvclock:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 199.39 85.09 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8169,7 +8111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 85.09 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +8122,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.31 85.09 0)
+			(at 205.74 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,88 +8356,6 @@
 			(project "bvclock"
 				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 207.01 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "443332f2-4f9f-40e7-a4d6-e372daa02576")
-		(property "Reference" "C39"
-			(at 207.01 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 207.01 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 206.0448 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 207.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99f10a88-d1e9-40d9-a218-b98596423d9a")
-		)
-		(pin "1"
-			(uuid "156c720f-0b0a-46e5-b5d9-ce283ebed102")
-		)
-		(instances
-			(project "bvclock"
-				(path "/c60296a7-2d90-476d-9ba8-593ef9b0941e/f5e86072-9c14-4298-882e-305fc24f4757"
-					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -11327,7 +11187,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 69.85 0)
+		(at 200.66 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11337,7 +11197,7 @@
 		(dnp no)
 		(uuid "dd6db6f4-ade4-46e2-a7e9-69aeb0eb7bcc")
 		(property "Reference" "#PWR035"
-			(at 207.01 73.66 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,7 +11208,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 207.01 66.04 0)
+			(at 200.66 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11358,7 +11218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 69.85 0)
+			(at 200.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,7 +11229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 69.85 0)
+			(at 200.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +11240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 69.85 0)
+			(at 200.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11951,7 +11811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D7.0mm_P3.00mm"
+		(property "Footprint" "bvclock:L_Toroid_Vertical_L14.9mm_W8.0mm_P7.40mm"
 			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12102,7 +11962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 200.66 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12181,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 194.31 69.85 0)
+		(at 205.74 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12331,7 +12191,7 @@
 		(dnp no)
 		(uuid "f9414378-7761-4126-a87f-2f4f032f2afb")
 		(property "Reference" "TP3"
-			(at 195.58 64.77 0)
+			(at 207.01 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12342,7 +12202,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.58 67.31 0)
+			(at 207.01 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12353,7 +12213,7 @@
 			)
 		)
 		(property "Footprint" "bvclock:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
-			(at 199.39 69.85 0)
+			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12364,7 +12224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 69.85 0)
+			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12375,7 +12235,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.31 69.85 0)
+			(at 205.74 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
